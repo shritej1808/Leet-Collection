@@ -2,9 +2,9 @@ name: LeetCode CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   compile:
@@ -19,10 +19,28 @@ jobs:
         uses: actions/setup-java@v5
         with:
           distribution: temurin
-          java-version: '17'
+          java-version: "17"
 
-      - name: Compile all Java solutions
+      - name: Compile each solution independently
+        shell: bash
         run: |
-          mkdir -p build
-          find . -name "*.java" -not -path "./build/*" > sources.txt
-          javac -d build @sources.txt
+          set -e
+
+          count=0
+
+          while IFS= read -r -d '' file; do
+            echo "========================================"
+            echo "Compiling: $file"
+            echo "========================================"
+
+            javac "$file"
+
+            echo "✓ Passed: $file"
+            echo
+
+            count=$((count + 1))
+          done < <(find . -name "*.java" -not -path "./build/*" -print0)
+
+          echo "========================================"
+          echo "✓ $count solution(s) compiled successfully"
+          echo "========================================"
