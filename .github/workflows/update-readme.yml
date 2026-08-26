@@ -1,7 +1,6 @@
-name: Update README dashboard
+name: Update dashboard
 
-# Runs every time LeetSync (or you) push a new solution, plus a daily
-# safety-net run in case LeetCode's problem metadata changes.
+# Fires on every LeetSync push, once a day as a safety net, or on demand.
 on:
   push:
     branches: [main]
@@ -15,17 +14,19 @@ permissions:
   id-token: write
 
 concurrency:
-  group: readme-update
+  group: dashboard-update
   cancel-in-progress: true
 
 jobs:
-  build-readme:
+  build:
     runs-on: ubuntu-latest
+    outputs:
+      pages_url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # full history so we can date each problem folder
+          fetch-depth: 0   # full history so each problem folder can be dated
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -40,20 +41,27 @@ jobs:
       - name: Generate site data
         run: python scripts/generate_site.py
 
-      - name: Notify Discord
+      - name: Notify Discord of new solves
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: python scripts/notify_discord.py
 
-      - name: Commit updated dashboard
+      - name: Commit generated files
         run: |
           git config user.name "leet-collection-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add README.md .leet-meta-cache.json docs/data.json .leet-notified.json
+          # Only stage files that actually exist — .leet-notified.json is only
+          # created once DISCORD_WEBHOOK_URL is set, so an explicit `git add`
+          # on it before then would fail with "did not match any files".
+          files="README.md docs/data.json .leet-meta-cache.json"
+          for f in .leet-notified.json; do
+            [ -f "$f" ] && files="$files $f"
+          done
+          git add $files
           if git diff --cached --quiet; then
             echo "Nothing changed, skipping commit."
           else
-            git commit -m "docs: auto-update README stats [skip ci]"
+            git commit -m "docs: auto-update dashboard [skip ci]"
             git push
           fi
 
@@ -62,13 +70,6 @@ jobs:
         with:
           path: docs
 
-  deploy:
-    needs: build-readme
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
