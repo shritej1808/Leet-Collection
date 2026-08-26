@@ -21,7 +21,7 @@ Usage:
     python scripts/generate_readme.py
 
 Env vars (all optional):
-    LEETCODE_USERNAME   - your LeetCode username, for the live stats card
+    shritejkv1808   - your LeetCode username, for the live stats card
     GITHUB_REPOSITORY   - "owner/repo", auto-set inside GitHub Actions
 """
 
@@ -273,7 +273,7 @@ def badge(label, message, color):
 
 def build_readme(problems):
     repo = os.environ.get("GITHUB_REPOSITORY", "shritej1808/Leet-Collection")
-    username = os.environ.get("LEETCODE_USERNAME", "").strip()
+    username = os.environ.get("shritejkv1808", "").strip()
 
     total = len(problems)
     diff_counts = {"Easy": 0, "Medium": 0, "Hard": 0}
@@ -311,7 +311,7 @@ def build_readme(problems):
         )
     else:
         lines.append(
-            "> ℹ️ Set the `LEETCODE_USERNAME` repo variable to show a live "
+            "> ℹ️ Set the `shritejkv1808` repo variable to show a live "
             "LeetCode stats card + submission heatmap here.\n"
         )
 

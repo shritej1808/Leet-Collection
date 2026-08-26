@@ -32,7 +32,7 @@ jobs:
 
       - name: Generate README
         env:
-          LEETCODE_USERNAME: ${{ vars.LEETCODE_USERNAME }}
+          shritejkv1808: ${{ vars.shritejkv1808 }}
         run: python scripts/generate_readme.py
 
       - name: Commit updated README

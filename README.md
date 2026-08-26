@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Last%20Updated-2026-08-26.19%3A44.UTC-444?style=for-the-badge" />
 </p>
 
-> ℹ️ Set the `LEETCODE_USERNAME` repo variable to show a live LeetCode stats card + submission heatmap here.
+> ℹ️ Set the `shritejkv1808` repo variable to show a live LeetCode stats card + submission heatmap here.
 
 ## 📊 Breakdown
 
