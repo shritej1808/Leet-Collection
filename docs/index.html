@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Leet-Collection — Shritej's solve log</title>
+<meta name="description" content="A live, self-updating LeetCode solve log and stats dashboard." />
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div class="scanline-overlay" aria-hidden="true"></div>
+
+<main>
+  <!-- ============ HERO: terminal boot sequence ============ -->
+  <section class="hero">
+    <div class="term-window" role="img" aria-label="Terminal showing solve stats">
+      <div class="term-bar">
+        <span class="term-dot dot-r"></span>
+        <span class="term-dot dot-y"></span>
+        <span class="term-dot dot-g"></span>
+        <span class="term-title">shritej@leet-collection: ~</span>
+      </div>
+      <div class="term-body" id="term-body">
+        <div class="term-line"><span class="term-prompt">$</span> <span id="term-typed"></span><span class="term-cursor" id="term-cursor">▌</span></div>
+        <div class="term-output" id="term-output" hidden></div>
+      </div>
+    </div>
+    <p class="hero-sub">Auto-rebuilt on every commit by <a href="https://github.com/3ba2ii/LeetSync" target="_blank" rel="noopener">LeetSync</a> + a GitHub Action. Nothing here is hand-edited.</p>
+  </section>
+
+  <!-- ============ TROPHY CASE ============ -->
+  <section class="panel" id="trophies-section">
+    <h2 class="panel-title"><span class="lineno">01</span> trophy_case<span class="dim">.log</span></h2>
+    <div class="trophy-row" id="trophy-row"></div>
+  </section>
+
+  <!-- ============ CHARTS ============ -->
+  <section class="panel charts-panel">
+    <h2 class="panel-title"><span class="lineno">02</span> analyze<span class="dim">.py --charts</span></h2>
+    <div class="charts-grid">
+      <div class="chart-card">
+        <canvas id="chart-difficulty" height="220"></canvas>
+      </div>
+      <div class="chart-card">
+        <canvas id="chart-topics" height="220"></canvas>
+      </div>
+      <div class="chart-card chart-card-wide">
+        <div class="heatmap-label">solve activity</div>
+        <div id="heatmap" class="heatmap"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FILTER BAR ============ -->
+  <section class="panel">
+    <h2 class="panel-title"><span class="lineno">03</span> grep<span class="dim"> solutions/</span></h2>
+    <div class="filter-bar">
+      <label class="flag">
+        <span class="flag-name">--search</span>
+        <input type="search" id="f-search" placeholder="title, slug, topic…" autocomplete="off">
+      </label>
+      <label class="flag">
+        <span class="flag-name">--difficulty</span>
+        <select id="f-difficulty">
+          <option value="">all</option>
+          <option value="Easy">easy</option>
+          <option value="Medium">medium</option>
+          <option value="Hard">hard</option>
+        </select>
+      </label>
+      <label class="flag">
+        <span class="flag-name">--language</span>
+        <select id="f-language"><option value="">all</option></select>
+      </label>
+      <label class="flag">
+        <span class="flag-name">--sort</span>
+        <select id="f-sort">
+          <option value="number-asc">number ↑</option>
+          <option value="number-desc">number ↓</option>
+          <option value="date-desc">newest solved</option>
+          <option value="date-asc">oldest solved</option>
+        </select>
+      </label>
+      <span class="result-count" id="result-count"></span>
+    </div>
+  </section>
+
+  <!-- ============ PROBLEM GRID ============ -->
+  <section class="panel">
+    <div id="grid" class="grid"></div>
+    <p id="empty-state" class="empty-state" hidden>no matches — try clearing a filter.</p>
+  </section>
+
+  <footer class="footer">
+    <span id="footer-generated"></span> · <a id="footer-repo" href="#" target="_blank" rel="noopener">source</a>
+  </footer>
+</main>
+
+<!-- ============ CODE MODAL ============ -->
+<div class="modal-backdrop" id="modal-backdrop" hidden>
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-bar">
+      <span class="term-dot dot-r" id="modal-close" role="button" tabindex="0" aria-label="Close"></span>
+      <span class="term-dot dot-y"></span>
+      <span class="term-dot dot-g"></span>
+      <span class="term-title" id="modal-title">solution</span>
+    </div>
+    <pre class="modal-code"><code id="modal-code-content"></code></pre>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

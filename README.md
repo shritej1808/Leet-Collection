@@ -6,10 +6,22 @@
   <img src="https://img.shields.io/badge/Easy-2-3CB371?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Medium-1-FFA116?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Hard-0-FF4C4C?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Last%20Updated-2026-08-26.19%3A57.UTC-444?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Trophies-3/13-FFD700?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Last%20Updated-2026-08-26.20%3A03.UTC-444?style=for-the-badge" />
 </p>
 
-> ℹ️ Set the `shritejkv1808` repo variable to show a live LeetCode stats card + submission heatmap here.
+> ℹ️ Set the `LEETCODE_USERNAME` repo variable to show a live LeetCode stats card + submission heatmap here.
+
+## 🏆 Trophy Case
+
+**3 / 13** unlocked
+
+| | | | |
+|:---:|:---:|:---:|:---:|
+| 🩸<br/>**First Blood**<br/><sub>Solve your first problem</sub> | 🔒<br/>**Getting Warmed Up**<br/><sub>Solve 5 problems</sub> | 🔒<br/>**Quarter Century**<br/><sub>Solve 25 problems</sub> | 🔒<br/>**Half Century**<br/><sub>Solve 50 problems</sub> |
+| 🔒<br/>**Century Club**<br/><sub>Solve 100 problems</sub> | 🔒<br/>**Easy Rider**<br/><sub>Solve 10 Easy problems</sub> | 🔒<br/>**Middle Manager**<br/><sub>Solve 10 Medium problems</sub> | 🔒<br/>**Hard Mode**<br/><sub>Solve your first Hard problem</sub> |
+| 🔒<br/>**Hardcore**<br/><sub>Solve 10 Hard problems</sub> | 🧭<br/>**Well Rounded**<br/><sub>Solve problems across 5+ different topics</sub> | 🔒<br/>**Polyglot**<br/><sub>Solve problems in 3+ languages</sub> | ⚡<br/>**Speed Demon**<br/><sub>Solve 3+ problems in a single day</sub> |
+| 🔒<br/>**Consistency King**<br/><sub>Solve on 7+ different days</sub> |  |  |  |
 
 ## 📊 Breakdown
 
@@ -27,4 +39,4 @@
 | 898 | [Transpose Matrix](https://leetcode.com/problems/transpose-matrix/) <br/> [898-transpose-matrix](./898-transpose-matrix) | 🟢 Easy | Java | Array, Matrix, Simulation | 2026-08-27 |
 
 ---
-<p align="center"><sub>Auto-generated on 2026-08-26 19:57 UTC by <code>scripts/generate_readme.py</code> · <a href="https://github.com/shritej1808/Leet-Collection/actions">view workflow runs</a></sub></p>
+<p align="center"><sub>Auto-generated on 2026-08-26 20:03 UTC by <code>scripts/generate_readme.py</code> · <a href="https://github.com/shritej1808/Leet-Collection/actions">view workflow runs</a></sub></p>
