@@ -14,6 +14,7 @@ webhook secret isn't configured.
 import json
 import os
 import sys
+import urllib.error
 import urllib.request
 
 from leet_data import REPO_ROOT, DIFFICULTY_COLOR, collect_problems
@@ -61,12 +62,32 @@ def post_to_discord(webhook_url, problem, index, total):
     }
     payload = json.dumps({"embeds": [embed]}).encode()
     req = urllib.request.Request(
-        webhook_url, data=payload, headers={"Content-Type": "application/json"}
+        webhook_url,
+        data=payload,
+        headers={
+            "Content-Type": "application/json",
+            "User-Agent": "leet-collection-bot (github-actions)",
+        },
+        method="POST",
     )
     try:
         urllib.request.urlopen(req, timeout=10)
+        return True
+    except urllib.error.HTTPError as e:
+        body = ""
+        try:
+            body = e.read().decode(errors="replace")
+        except Exception:
+            pass
+        print(
+            f"  [warn] Discord post failed for {problem['folder']}: "
+            f"HTTP {e.code} {e.reason} — {body}",
+            file=sys.stderr,
+        )
+        return False
     except Exception as e:
         print(f"  [warn] Discord post failed for {problem['folder']}: {e}", file=sys.stderr)
+        return False
 
 
 def main():
@@ -83,12 +104,20 @@ def main():
         print("No new solves since last notification.")
         return
 
+    sent = 0
     for p in new_ones:
-        post_to_discord(webhook_url, p, problems.index(p) + 1, len(problems))
-        notified.add(p["folder"])
+        ok = post_to_discord(webhook_url, p, problems.index(p) + 1, len(problems))
+        if ok:
+            notified.add(p["folder"])
+            sent += 1
+        # Failed sends remain pending so the next workflow run retries them.
 
     save_notified(notified)
-    print(f"Notified Discord about {len(new_ones)} new solve(s).")
+    if sent < len(new_ones):
+        print(f"Notified Discord about {sent}/{len(new_ones)} new solve(s) — "
+              "the rest failed and will be retried next run.")
+    else:
+        print(f"Notified Discord about {sent} new solve(s).")
 
 
 if __name__ == "__main__":

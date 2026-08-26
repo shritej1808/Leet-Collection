@@ -48,6 +48,7 @@ jobs:
 
       - name: Commit generated files
         run: |
+          set -e
           git config user.name "leet-collection-bot"
           git config user.email "actions@users.noreply.github.com"
           # Only stage files that actually exist — .leet-notified.json is only
@@ -60,10 +61,27 @@ jobs:
           git add $files
           if git diff --cached --quiet; then
             echo "Nothing changed, skipping commit."
+            exit 0
           else
             git commit -m "docs: auto-update dashboard [skip ci]"
-            git push
           fi
+
+          # LeetSync may push a new solve while this job is running.
+          for i in 1 2 3 4 5; do
+            if git push; then
+              echo "Pushed on attempt $i."
+              exit 0
+            fi
+            echo "Push rejected (attempt $i) - fetching and rebasing onto latest main..."
+            git fetch origin main
+            if ! git rebase origin/main; then
+              echo "Rebase conflict - leaving it for the next run instead of forcing."
+              git rebase --abort
+              exit 0
+            fi
+          done
+          echo "::error::Failed to push generated files after 5 attempts."
+          exit 1
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
