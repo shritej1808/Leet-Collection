@@ -1,0 +1,29 @@
+{
+  "merge-sorted-array": {
+    "difficulty": "Easy",
+    "title": "Merge Sorted Array",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
+  "rotate-array": {
+    "difficulty": "Medium",
+    "title": "Rotate Array",
+    "topics": [
+      "Array",
+      "Math",
+      "Two Pointers"
+    ]
+  },
+  "transpose-matrix": {
+    "difficulty": "Easy",
+    "title": "Transpose Matrix",
+    "topics": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ]
+  }
+}
