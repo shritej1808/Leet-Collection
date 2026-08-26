@@ -36,10 +36,8 @@ jobs:
             javac "$file"
 
             echo "✓ Passed: $file"
-            echo
-
             count=$((count + 1))
-          done < <(find . -name "*.java" -not -path "./build/*" -print0)
+          done < <(find . -name "*.java" -print0)
 
           echo "========================================"
           echo "✓ $count solution(s) compiled successfully"
