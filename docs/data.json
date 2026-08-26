@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T20:29:35+00:00",
+  "generated_at": "2026-08-26T20:30:51+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -41,6 +41,26 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/189-rotate-array/rotate-array.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/189-rotate-array",
       "leetcode_url": "https://leetcode.com/problems/rotate-array/"
+    },
+    {
+      "number": 392,
+      "slug": "is-subsequence",
+      "folder": "392-is-subsequence",
+      "title": "Is Subsequence",
+      "difficulty": "Easy",
+      "topics": [
+        "Two Pointers",
+        "String",
+        "Dynamic Programming"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "is-subsequence.java",
+      "date": "2026-08-27",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/392-is-subsequence/is-subsequence.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/392-is-subsequence",
+      "leetcode_url": "https://leetcode.com/problems/is-subsequence/"
     },
     {
       "number": 874,
@@ -97,7 +117,7 @@
       "name": "Getting Warmed Up",
       "icon": "\ud83d\udd25",
       "desc": "Solve 5 problems",
-      "unlocked": false
+      "unlocked": true
     },
     {
       "id": "quarter-century",

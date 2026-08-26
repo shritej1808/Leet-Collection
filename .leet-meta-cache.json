@@ -9,6 +9,15 @@
       "Simulation"
     ]
   },
+  "is-subsequence": {
+    "difficulty": "Easy",
+    "title": "Is Subsequence",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ]
+  },
   "merge-sorted-array": {
     "difficulty": "Easy",
     "title": "Merge Sorted Array",
