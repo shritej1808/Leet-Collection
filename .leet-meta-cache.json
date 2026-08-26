@@ -1,4 +1,14 @@
 {
+  "backspace-string-compare": {
+    "difficulty": "Easy",
+    "title": "Backspace String Compare",
+    "topics": [
+      "Two Pointers",
+      "String",
+      "Stack",
+      "Simulation"
+    ]
+  },
   "merge-sorted-array": {
     "difficulty": "Easy",
     "title": "Merge Sorted Array",
