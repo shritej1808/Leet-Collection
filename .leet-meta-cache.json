@@ -36,6 +36,15 @@
       "Two Pointers"
     ]
   },
+  "rotate-image": {
+    "difficulty": "Medium",
+    "title": "Rotate Image",
+    "topics": [
+      "Array",
+      "Math",
+      "Matrix"
+    ]
+  },
   "transpose-matrix": {
     "difficulty": "Easy",
     "title": "Transpose Matrix",

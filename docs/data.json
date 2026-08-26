@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-08-26T20:30:51+00:00",
+  "generated_at": "2026-08-26T20:39:31+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
+    {
+      "number": 48,
+      "slug": "rotate-image",
+      "folder": "48-rotate-image",
+      "title": "Rotate Image",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Math",
+        "Matrix"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "rotate-image.java",
+      "date": "2026-08-27",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/48-rotate-image/rotate-image.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/48-rotate-image",
+      "leetcode_url": "https://leetcode.com/problems/rotate-image/"
+    },
     {
       "number": 88,
       "slug": "merge-sorted-array",
