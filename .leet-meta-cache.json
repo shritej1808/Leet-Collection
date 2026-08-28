@@ -54,6 +54,16 @@
       "Simulation"
     ]
   },
+  "spiral-matrix-iv": {
+    "difficulty": "Medium",
+    "title": "Spiral Matrix IV",
+    "topics": [
+      "Array",
+      "Linked List",
+      "Matrix",
+      "Simulation"
+    ]
+  },
   "transpose-matrix": {
     "difficulty": "Easy",
     "title": "Transpose Matrix",
