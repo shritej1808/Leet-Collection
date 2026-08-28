@@ -16,17 +16,19 @@ class Solution {
             colEnd--;
             if(rowBegin<=rowEnd){
                 for(int j=colEnd;j>=colBegin;j--){
-                mat.add(matrix[rowEnd][j]);
-            }
+                    mat.add(matrix[rowEnd][j]);
+                }
+                
             }
             rowEnd--;
+            
             if(colBegin<=colEnd){
                 for(int j=rowEnd;j>=rowBegin;j--){
                     mat.add(matrix[j][colBegin]);
                 }
-                 colBegin++;
+                colBegin++;
             }
-           
+            
 
         }
         return mat;
