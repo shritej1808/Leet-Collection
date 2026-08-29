@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """
-Commit Roast — pipes every solution file changed in a push through Claude,
+Commit Roast — pipes every solution file changed in a push through an LLM,
 in the voice of a strict, unimpressed technical interviewer, and posts the
 result as a GitHub commit comment.
 
+Uses Groq's free, OpenAI-compatible inference API (no credit card required).
+
 Env vars (all set by the workflow):
-  ANTHROPIC_API_KEY   required. Anthropic API key.
+  GROQ_API_KEY        required. Free key from console.groq.com.
   GITHUB_TOKEN        required. Used to post the commit comment.
   GITHUB_REPOSITORY   "owner/repo", provided by GitHub Actions.
   BEFORE_SHA          github.event.before
   AFTER_SHA           github.event.after (the commit we comment on)
-  ROAST_MODEL         optional, defaults to a fast/cheap model.
+  ROAST_MODEL         optional, defaults to a fast/free Groq model.
 """
 
 import os
@@ -19,7 +21,9 @@ import subprocess
 import sys
 
 import requests
-from anthropic import Anthropic
+from openai import OpenAI
+
+GROQ_BASE_URL = "https://api.groq.com/openai/v1"
 
 MAX_FILES_PER_PUSH = 5
 MAX_CHARS_PER_FILE = 6000  # keep prompts cheap; solutions are short anyway
@@ -97,13 +101,15 @@ def roast(client, model, path):
     label = guess_problem_label(path)
     user_msg = f"Problem: {label}\nFile: {path}\n\n```\n{code}\n```"
 
-    resp = client.messages.create(
+    resp = client.chat.completions.create(
         model=model,
         max_tokens=120,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": user_msg}],
+        messages=[
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": user_msg},
+        ],
     )
-    text = "".join(block.text for block in resp.content if block.type == "text").strip()
+    text = resp.choices[0].message.content.strip()
     return label, text
 
 
@@ -118,16 +124,16 @@ def post_commit_comment(repo, sha, token, body):
 
 
 def main():
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
-        print("ANTHROPIC_API_KEY not set — skipping roast (add it as a repo secret).")
+        print("GROQ_API_KEY not set — skipping roast (add it as a repo secret).")
         return
 
     repo = os.environ["GITHUB_REPOSITORY"]
     token = os.environ["GITHUB_TOKEN"]
     before_sha = os.environ.get("BEFORE_SHA", "")
     after_sha = os.environ["AFTER_SHA"]
-    model = os.environ.get("ROAST_MODEL", "claude-haiku-4-5-20251001")
+    model = os.environ.get("ROAST_MODEL", "llama-3.3-70b-versatile")
 
     files = [f for f in changed_files(before_sha, after_sha) if is_solution_file(f)]
     if not files:
@@ -135,7 +141,7 @@ def main():
         return
     files = files[:MAX_FILES_PER_PUSH]
 
-    client = Anthropic(api_key=api_key)
+    client = OpenAI(api_key=api_key, base_url=GROQ_BASE_URL)
     results = []
     for path in files:
         result = roast(client, model, path)

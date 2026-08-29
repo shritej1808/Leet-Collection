@@ -26,15 +26,16 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install anthropic requests
+        run: pip install openai requests
 
       - name: Roast the diff
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           BEFORE_SHA: ${{ github.event.before }}
           AFTER_SHA: ${{ github.event.after }}
-          # optional: override the model or persona without touching code
-          ROAST_MODEL: claude-haiku-4-5-20251001
+          # optional: override the model without touching code — see
+          # console.groq.com for the current free-tier model list
+          ROAST_MODEL: llama-3.3-70b-versatile
         run: python scripts/roast_reviewer.py
