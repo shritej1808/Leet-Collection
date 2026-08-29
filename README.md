@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Medium-8-FFA116?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Hard-0-FF4C4C?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Trophies-4/13-FFD700?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Last%20Updated-2026-08-29.19%3A47.UTC-444?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Last%20Updated-2026-08-29.19%3A51.UTC-444?style=for-the-badge" />
 </p>
 
 > ℹ️ Set the `LEETCODE_USERNAME` repo variable to show a live LeetCode stats card + submission heatmap here.
@@ -48,4 +48,4 @@
 | 2411 | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/) <br/> [2411-spiral-matrix-iv](./2411-spiral-matrix-iv) | 🟡 Medium | Java | Array, Linked List, Matrix… | 2026-08-28 |
 
 ---
-<p align="center"><sub>Auto-generated on 2026-08-29 19:47 UTC by <code>scripts/generate_readme.py</code> · <a href="https://github.com/shritej1808/Leet-Collection/actions">view workflow runs</a></sub></p>
+<p align="center"><sub>Auto-generated on 2026-08-29 19:51 UTC by <code>scripts/generate_readme.py</code> · <a href="https://github.com/shritej1808/Leet-Collection/actions">view workflow runs</a></sub></p>
