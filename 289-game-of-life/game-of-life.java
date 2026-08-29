@@ -12,7 +12,6 @@ class Solution {
                 copy[i][j] = board[i][j];
             }
         }
-
         // Check every cell
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
