@@ -35,8 +35,7 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           BEFORE_SHA: ${{ github.event.before }}
           AFTER_SHA: ${{ github.event.after }}
-          # optional: override the model without touching code — see
-          # console.groq.com for the current free-tier model list
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           # optional: override the model without touching code — see
           # console.groq.com/docs/models for the current free-tier list
           ROAST_MODEL: openai/gpt-oss-120b

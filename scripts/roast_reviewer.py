@@ -13,6 +13,8 @@ Env vars (all set by the workflow):
   BEFORE_SHA          github.event.before
   AFTER_SHA           github.event.after (the commit we comment on)
   ROAST_MODEL         optional, defaults to a fast/free Groq model.
+  DISCORD_WEBHOOK_URL optional. If set, also posts the roast to Discord
+                      (reuses the same secret as notify_discord.py).
 """
 
 import os
@@ -129,6 +131,26 @@ def post_commit_comment(repo, sha, token, body):
     r.raise_for_status()
 
 
+def post_to_discord(webhook_url, repo, sha, results):
+    embed = {
+        "title": "🎤 Commit Roast — the interviewer has notes",
+        "url": f"https://github.com/{repo}/commit/{sha}",
+        "color": 0xFF4500,
+        "fields": [
+            {"name": label, "value": line, "inline": False}
+            for label, line in results
+        ],
+        "footer": {"text": "Leet-Collection"},
+    }
+    try:
+        r = requests.post(webhook_url, json={"embeds": [embed]}, timeout=10)
+        r.raise_for_status()
+        return True
+    except requests.RequestException as e:
+        print(f"  [warn] Discord post failed: {e}", file=sys.stderr)
+        return False
+
+
 def main():
     api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
@@ -165,6 +187,13 @@ def main():
 
     post_commit_comment(repo, after_sha, token, body)
     print("Posted roast:\n" + body)
+
+    webhook_url = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
+    if webhook_url:
+        if post_to_discord(webhook_url, repo, after_sha, results):
+            print("Also posted roast to Discord.")
+    else:
+        print("DISCORD_WEBHOOK_URL not set — skipping Discord post.")
 
 
 if __name__ == "__main__":
