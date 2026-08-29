@@ -103,13 +103,21 @@ def roast(client, model, path):
 
     resp = client.chat.completions.create(
         model=model,
-        max_tokens=120,
+        max_completion_tokens=400,
+        # openai/gpt-oss-* models on Groq are reasoning models: they spend
+        # part of the token budget "thinking" before writing the answer.
+        # Keep that spend small and hide it from the final content so we
+        # don't burn the whole budget on reasoning and get an empty reply.
+        reasoning_effort="low",
+        reasoning_format="hidden",
         messages=[
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": user_msg},
         ],
     )
-    text = resp.choices[0].message.content.strip()
+    text = (resp.choices[0].message.content or "").strip()
+    if not text:
+        return None
     return label, text
 
 
