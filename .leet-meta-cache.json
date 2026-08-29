@@ -45,6 +45,15 @@
       "Matrix"
     ]
   },
+  "set-matrix-zeroes": {
+    "difficulty": "Medium",
+    "title": "Set Matrix Zeroes",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Matrix"
+    ]
+  },
   "spiral-matrix": {
     "difficulty": "Medium",
     "title": "Spiral Matrix",

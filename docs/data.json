@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T11:37:51+00:00",
+  "generated_at": "2026-08-29T18:32:57+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -61,6 +61,26 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/59-spiral-matrix-ii/spiral-matrix-ii.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/59-spiral-matrix-ii",
       "leetcode_url": "https://leetcode.com/problems/spiral-matrix-ii/"
+    },
+    {
+      "number": 73,
+      "slug": "set-matrix-zeroes",
+      "folder": "73-set-matrix-zeroes",
+      "title": "Set Matrix Zeroes",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Matrix"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "set-matrix-zeroes.java",
+      "date": "2026-08-30",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/73-set-matrix-zeroes/set-matrix-zeroes.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/73-set-matrix-zeroes",
+      "leetcode_url": "https://leetcode.com/problems/set-matrix-zeroes/"
     },
     {
       "number": 88,
