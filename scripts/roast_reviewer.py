@@ -4,7 +4,7 @@ Commit Roast — pipes every solution file changed in a push through an LLM,
 in the voice of a strict, unimpressed technical interviewer, and posts the
 result as a GitHub commit comment.
 
-Uses Groq's free, OpenAI-compatible inference API (no credit card required).
+Uses Groq's free inference API (no credit card required) via Groq's own SDK.
 
 Env vars (all set by the workflow):
   GROQ_API_KEY        required. Free key from console.groq.com.
@@ -21,9 +21,7 @@ import subprocess
 import sys
 
 import requests
-from openai import OpenAI
-
-GROQ_BASE_URL = "https://api.groq.com/openai/v1"
+from groq import Groq
 
 MAX_FILES_PER_PUSH = 5
 MAX_CHARS_PER_FILE = 6000  # keep prompts cheap; solutions are short anyway
@@ -149,7 +147,7 @@ def main():
         return
     files = files[:MAX_FILES_PER_PUSH]
 
-    client = OpenAI(api_key=api_key, base_url=GROQ_BASE_URL)
+    client = Groq(api_key=api_key)
     results = []
     for path in files:
         result = roast(client, model, path)
