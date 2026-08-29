@@ -1,5 +1,6 @@
 class Solution {
     public void rotate(int[] nums, int k) {
+        // Rotate array by reversing subarrays
         int n=nums.length;
         k=k%n;
         reverse(nums,0,n-1);
