@@ -1,0 +1,40 @@
+name: Commit Roast
+
+# Fires on every push to main, diffs the commits that were just pushed,
+# and has a strict-interviewer LLM persona leave one savage line per
+# changed solution file as a commit comment.
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write   # needed to post commit comments
+
+jobs:
+  roast:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # need history so we can diff before/after
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install anthropic requests
+
+      - name: Roast the diff
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.event.after }}
+          # optional: override the model or persona without touching code
+          ROAST_MODEL: claude-haiku-4-5-20251001
+        run: python scripts/roast_reviewer.py
