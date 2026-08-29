@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T10:02:43+00:00",
+  "generated_at": "2026-08-29T11:03:58+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -162,6 +162,26 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/898-transpose-matrix/transpose-matrix.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/898-transpose-matrix",
       "leetcode_url": "https://leetcode.com/problems/transpose-matrix/"
+    },
+    {
+      "number": 921,
+      "slug": "spiral-matrix-iii",
+      "folder": "921-spiral-matrix-iii",
+      "title": "Spiral Matrix III",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Matrix",
+        "Simulation"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "spiral-matrix-iii.java",
+      "date": "2026-08-29",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/921-spiral-matrix-iii/spiral-matrix-iii.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/921-spiral-matrix-iii",
+      "leetcode_url": "https://leetcode.com/problems/spiral-matrix-iii/"
     },
     {
       "number": 2411,
