@@ -21,9 +21,9 @@ class Solution {
                     result[index][1]=c;
                     index++;
                 }
-                if(index==rows*cols){
-                    return result;
-                }
+                // if(index==rows*cols){
+                //     return result;
+                // }
             }
             direction=(direction+1)%4;
         }
