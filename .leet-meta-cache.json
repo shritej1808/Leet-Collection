@@ -9,6 +9,15 @@
       "Simulation"
     ]
   },
+  "game-of-life": {
+    "difficulty": "Medium",
+    "title": "Game of Life",
+    "topics": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ]
+  },
   "is-subsequence": {
     "difficulty": "Easy",
     "title": "Is Subsequence",
