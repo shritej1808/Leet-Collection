@@ -37,5 +37,7 @@ jobs:
           AFTER_SHA: ${{ github.event.after }}
           # optional: override the model without touching code — see
           # console.groq.com for the current free-tier model list
-          ROAST_MODEL: llama-3.3-70b-versatile
+          # optional: override the model without touching code — see
+          # console.groq.com/docs/models for the current free-tier list
+          ROAST_MODEL: openai/gpt-oss-120b
         run: python scripts/roast_reviewer.py

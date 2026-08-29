@@ -133,7 +133,7 @@ def main():
     token = os.environ["GITHUB_TOKEN"]
     before_sha = os.environ.get("BEFORE_SHA", "")
     after_sha = os.environ["AFTER_SHA"]
-    model = os.environ.get("ROAST_MODEL", "llama-3.3-70b-versatile")
+    model = os.environ.get("ROAST_MODEL", "openai/gpt-oss-120b")
 
     files = [f for f in changed_files(before_sha, after_sha) if is_solution_file(f)]
     if not files:
