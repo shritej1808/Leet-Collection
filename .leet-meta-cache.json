@@ -45,6 +45,14 @@
       "Sorting"
     ]
   },
+  "product-of-array-except-self": {
+    "difficulty": "Medium",
+    "title": "Product of Array Except Self",
+    "topics": [
+      "Array",
+      "Prefix Sum"
+    ]
+  },
   "rotate-array": {
     "difficulty": "Medium",
     "title": "Rotate Array",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T14:32:54+00:00",
+  "generated_at": "2026-09-01T14:46:35+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -121,6 +121,25 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/189-rotate-array/rotate-array.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/189-rotate-array",
       "leetcode_url": "https://leetcode.com/problems/rotate-array/"
+    },
+    {
+      "number": 238,
+      "slug": "product-of-array-except-self",
+      "folder": "238-product-of-array-except-self",
+      "title": "Product of Array Except Self",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Prefix Sum"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "product-of-array-except-self.java",
+      "date": "2026-09-01",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/238-product-of-array-except-self/product-of-array-except-self.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/238-product-of-array-except-self",
+      "leetcode_url": "https://leetcode.com/problems/product-of-array-except-self/"
     },
     {
       "number": 289,
@@ -313,7 +332,7 @@
       "name": "Middle Manager",
       "icon": "\ud83d\udfe1",
       "desc": "Solve 10 Medium problems",
-      "unlocked": false
+      "unlocked": true
     },
     {
       "id": "hard-mode",
