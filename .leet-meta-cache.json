@@ -9,6 +9,15 @@
       "Simulation"
     ]
   },
+  "diagonal-traverse": {
+    "difficulty": "Medium",
+    "title": "Diagonal Traverse",
+    "topics": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ]
+  },
   "game-of-life": {
     "difficulty": "Medium",
     "title": "Game of Life",
