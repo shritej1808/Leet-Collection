@@ -135,5 +135,14 @@
       "Matrix",
       "Simulation"
     ]
+  },
+  "valid-anagram": {
+    "difficulty": "Easy",
+    "title": "Valid Anagram",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sorting"
+    ]
   }
 }

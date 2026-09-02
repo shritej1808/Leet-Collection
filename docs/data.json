@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T13:02:42+00:00",
+  "generated_at": "2026-09-02T13:23:09+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -140,6 +140,26 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/238-product-of-array-except-self/product-of-array-except-self.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/238-product-of-array-except-self",
       "leetcode_url": "https://leetcode.com/problems/product-of-array-except-self/"
+    },
+    {
+      "number": 242,
+      "slug": "valid-anagram",
+      "folder": "242-valid-anagram",
+      "title": "Valid Anagram",
+      "difficulty": "Easy",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Sorting"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "valid-anagram.java",
+      "date": "2026-09-02",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/242-valid-anagram/valid-anagram.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/242-valid-anagram",
+      "leetcode_url": "https://leetcode.com/problems/valid-anagram/"
     },
     {
       "number": 289,
