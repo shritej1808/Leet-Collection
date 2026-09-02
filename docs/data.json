@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T07:54:17+00:00",
+  "generated_at": "2026-09-02T12:55:04+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -221,6 +221,27 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/874-backspace-string-compare/backspace-string-compare.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/874-backspace-string-compare",
       "leetcode_url": "https://leetcode.com/problems/backspace-string-compare/"
+    },
+    {
+      "number": 875,
+      "slug": "longest-mountain-in-array",
+      "folder": "875-longest-mountain-in-array",
+      "title": "Longest Mountain in Array",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Two Pointers",
+        "Dynamic Programming",
+        "Enumeration"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "longest-mountain-in-array.java",
+      "date": "2026-09-02",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/875-longest-mountain-in-array/longest-mountain-in-array.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/875-longest-mountain-in-array",
+      "leetcode_url": "https://leetcode.com/problems/longest-mountain-in-array/"
     },
     {
       "number": 898,

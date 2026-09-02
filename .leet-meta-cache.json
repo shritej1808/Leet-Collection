@@ -36,6 +36,16 @@
       "Dynamic Programming"
     ]
   },
+  "longest-mountain-in-array": {
+    "difficulty": "Medium",
+    "title": "Longest Mountain in Array",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Enumeration"
+    ]
+  },
   "merge-sorted-array": {
     "difficulty": "Easy",
     "title": "Merge Sorted Array",
