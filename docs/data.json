@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T12:34:16+00:00",
+  "generated_at": "2026-09-03T13:05:37+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -201,6 +201,31 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/289-game-of-life/game-of-life.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/289-game-of-life",
       "leetcode_url": "https://leetcode.com/problems/game-of-life/"
+    },
+    {
+      "number": 347,
+      "slug": "top-k-frequent-elements",
+      "folder": "347-top-k-frequent-elements",
+      "title": "Top K Frequent Elements",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Divide and Conquer",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Bucket Sort",
+        "Counting",
+        "Quickselect"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "top-k-frequent-elements.java",
+      "date": "2026-09-03",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/347-top-k-frequent-elements/top-k-frequent-elements.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/347-top-k-frequent-elements",
+      "leetcode_url": "https://leetcode.com/problems/top-k-frequent-elements/"
     },
     {
       "number": 392,
