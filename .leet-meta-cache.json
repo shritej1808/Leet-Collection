@@ -27,6 +27,16 @@
       "Simulation"
     ]
   },
+  "group-anagrams": {
+    "difficulty": "Medium",
+    "title": "Group Anagrams",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting"
+    ]
+  },
   "is-subsequence": {
     "difficulty": "Easy",
     "title": "Is Subsequence",

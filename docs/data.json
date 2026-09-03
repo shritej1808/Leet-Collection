@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T08:02:58+00:00",
+  "generated_at": "2026-09-03T12:34:16+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -21,6 +21,27 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/48-rotate-image/rotate-image.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/48-rotate-image",
       "leetcode_url": "https://leetcode.com/problems/rotate-image/"
+    },
+    {
+      "number": 49,
+      "slug": "group-anagrams",
+      "folder": "49-group-anagrams",
+      "title": "Group Anagrams",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Sorting"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "group-anagrams.java",
+      "date": "2026-09-03",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/49-group-anagrams/group-anagrams.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/49-group-anagrams",
+      "leetcode_url": "https://leetcode.com/problems/group-anagrams/"
     },
     {
       "number": 54,
@@ -415,7 +436,7 @@
       "name": "Consistency King",
       "icon": "\ud83d\udcc6",
       "desc": "Solve on 7+ different days",
-      "unlocked": false
+      "unlocked": true
     }
   ]
 }
