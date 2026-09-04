@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T13:44:55+00:00",
+  "generated_at": "2026-09-04T14:14:19+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -289,6 +289,29 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/498-diagonal-traverse/diagonal-traverse.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/498-diagonal-traverse",
       "leetcode_url": "https://leetcode.com/problems/diagonal-traverse/"
+    },
+    {
+      "number": 621,
+      "slug": "task-scheduler",
+      "folder": "621-task-scheduler",
+      "title": "Task Scheduler",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Greedy",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Counting"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "task-scheduler.java",
+      "date": "2026-09-04",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/621-task-scheduler/task-scheduler.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/621-task-scheduler",
+      "leetcode_url": "https://leetcode.com/problems/task-scheduler/"
     },
     {
       "number": 874,

@@ -149,6 +149,18 @@
       "Simulation"
     ]
   },
+  "task-scheduler": {
+    "difficulty": "Medium",
+    "title": "Task Scheduler",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Counting"
+    ]
+  },
   "top-k-frequent-elements": {
     "difficulty": "Medium",
     "title": "Top K Frequent Elements",
