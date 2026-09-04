@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T12:54:09+00:00",
+  "generated_at": "2026-09-04T13:37:20+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -246,6 +246,29 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/392-is-subsequence/is-subsequence.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/392-is-subsequence",
       "leetcode_url": "https://leetcode.com/problems/is-subsequence/"
+    },
+    {
+      "number": 451,
+      "slug": "sort-characters-by-frequency",
+      "folder": "451-sort-characters-by-frequency",
+      "title": "Sort Characters By Frequency",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Bucket Sort",
+        "Counting"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "sort-characters-by-frequency.java",
+      "date": "2026-09-04",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/451-sort-characters-by-frequency/sort-characters-by-frequency.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/451-sort-characters-by-frequency",
+      "leetcode_url": "https://leetcode.com/problems/sort-characters-by-frequency/"
     },
     {
       "number": 498,
