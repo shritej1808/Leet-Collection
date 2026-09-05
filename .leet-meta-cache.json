@@ -9,6 +9,15 @@
       "Simulation"
     ]
   },
+  "contains-duplicate-ii": {
+    "difficulty": "Easy",
+    "title": "Contains Duplicate II",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Sliding Window"
+    ]
+  },
   "diagonal-traverse": {
     "difficulty": "Medium",
     "title": "Diagonal Traverse",

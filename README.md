@@ -2,12 +2,12 @@
 <p align="center">Auto-generated LeetCode solution archive, synced with <a href="https://github.com/3ba2ii/LeetSync">LeetSync</a> and self-updating on every push.</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Solved-21-5865F2?style=for-the-badge" alt="total solved" />
-  <img src="https://img.shields.io/badge/Easy-6-3CB371?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Solved-22-5865F2?style=for-the-badge" alt="total solved" />
+  <img src="https://img.shields.io/badge/Easy-7-3CB371?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Medium-15-FFA116?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Hard-0-FF4C4C?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Trophies-6/13-FFD700?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Last%20Updated-2026-09-05.11%3A02.UTC-444?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Last%20Updated-2026-09-05.11%3A29.UTC-444?style=for-the-badge" />
 </p>
 
 > ℹ️ Set the `LEETCODE_USERNAME` repo variable to show a live LeetCode stats card + submission heatmap here.
@@ -26,8 +26,8 @@
 ## 📊 Breakdown
 
 <p align="center">
-  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B6%2C%2015%2C%200%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233CB371%22%2C%20%22%23FFA116%22%2C%20%22%23FF4C4C%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22labels%22%3A%20%7B%22color%22%3A%20%22gray%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2014%7D%7D%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Solved%20by%20Difficulty%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%7D%7D&backgroundColor=transparent&width=380&height=260" alt="difficulty breakdown" width="380"/>
-  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22bar%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Array%22%2C%20%22Matrix%22%2C%20%22Simulation%22%2C%20%22Hash%20Table%22%2C%20%22Sorting%22%2C%20%22Two%20Pointers%22%2C%20%22String%22%2C%20%22Math%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22label%22%3A%20%22Problems%22%2C%20%22data%22%3A%20%5B16%2C%209%2C%208%2C%207%2C%206%2C%206%2C%205%2C%203%5D%2C%20%22backgroundColor%22%3A%20%22%235865F2%22%7D%5D%7D%2C%20%22options%22%3A%20%7B%22indexAxis%22%3A%20%22y%22%2C%20%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22display%22%3A%20false%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Top%20Topics%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%2C%20%22scales%22%3A%20%7B%22x%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22gray%22%7D%7D%2C%20%22y%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22gray%22%7D%7D%7D%7D%7D&backgroundColor=transparent&width=420&height=280" alt="top topics" width="420"/>
+  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B7%2C%2015%2C%200%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233CB371%22%2C%20%22%23FFA116%22%2C%20%22%23FF4C4C%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22labels%22%3A%20%7B%22color%22%3A%20%22gray%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2014%7D%7D%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Solved%20by%20Difficulty%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%7D%7D&backgroundColor=transparent&width=380&height=260" alt="difficulty breakdown" width="380"/>
+  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22bar%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Array%22%2C%20%22Matrix%22%2C%20%22Hash%20Table%22%2C%20%22Simulation%22%2C%20%22Sorting%22%2C%20%22Two%20Pointers%22%2C%20%22String%22%2C%20%22Math%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22label%22%3A%20%22Problems%22%2C%20%22data%22%3A%20%5B17%2C%209%2C%208%2C%208%2C%206%2C%206%2C%205%2C%203%5D%2C%20%22backgroundColor%22%3A%20%22%235865F2%22%7D%5D%7D%2C%20%22options%22%3A%20%7B%22indexAxis%22%3A%20%22y%22%2C%20%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22display%22%3A%20false%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Top%20Topics%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%2C%20%22scales%22%3A%20%7B%22x%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22gray%22%7D%7D%2C%20%22y%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22gray%22%7D%7D%7D%7D%7D&backgroundColor=transparent&width=420&height=280" alt="top topics" width="420"/>
 </p>
 
 ## 📚 Solutions
@@ -42,6 +42,7 @@
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) <br/> [88-merge-sorted-array](./88-merge-sorted-array) | 🟢 Easy | Java | Array, Two Pointers, Sorting | 2026-08-27 |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) <br/> [189-rotate-array](./189-rotate-array) | 🟡 Medium | Java | Array, Math, Two Pointers | 2026-08-27 |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) <br/> [202-happy-number](./202-happy-number) | 🟢 Easy | Java | Hash Table, Math, Two Pointers… | 2026-09-05 |
+| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) <br/> [219-contains-duplicate-ii](./219-contains-duplicate-ii) | 🟢 Easy | Java | Array, Hash Table, Sliding Window | 2026-09-05 |
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) <br/> [238-product-of-array-except-self](./238-product-of-array-except-self) | 🟡 Medium | Java | Array, Prefix Sum | 2026-09-01 |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) <br/> [242-valid-anagram](./242-valid-anagram) | 🟢 Easy | Java | Hash Table, String, Sorting | 2026-09-02 |
 | 289 | [Game of Life](https://leetcode.com/problems/game-of-life/) <br/> [289-game-of-life](./289-game-of-life) | 🟡 Medium | Java | Array, Matrix, Simulation | 2026-08-30 |
@@ -57,4 +58,4 @@
 | 2411 | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/) <br/> [2411-spiral-matrix-iv](./2411-spiral-matrix-iv) | 🟡 Medium | Java | Array, Linked List, Matrix… | 2026-08-28 |
 
 ---
-<p align="center"><sub>Auto-generated on 2026-09-05 11:02 UTC by <code>scripts/generate_readme.py</code> · <a href="https://github.com/shritej1808/Leet-Collection/actions">view workflow runs</a></sub></p>
+<p align="center"><sub>Auto-generated on 2026-09-05 11:29 UTC by <code>scripts/generate_readme.py</code> · <a href="https://github.com/shritej1808/Leet-Collection/actions">view workflow runs</a></sub></p>
