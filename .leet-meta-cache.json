@@ -65,6 +65,16 @@
       "Dynamic Programming"
     ]
   },
+  "linked-list-cycle": {
+    "difficulty": "Easy",
+    "title": "Linked List Cycle",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Two Pointers",
+      "Floyd's Cycle Finding Algorithm"
+    ]
+  },
   "longest-mountain-in-array": {
     "difficulty": "Medium",
     "title": "Longest Mountain in Array",

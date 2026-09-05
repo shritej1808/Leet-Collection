@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T11:38:10+00:00",
+  "generated_at": "2026-09-05T11:46:34+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -122,6 +122,25 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/88-merge-sorted-array/merge-sorted-array.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/88-merge-sorted-array",
       "leetcode_url": "https://leetcode.com/problems/merge-sorted-array/"
+    },
+    {
+      "number": 141,
+      "slug": "linked-list-cycle",
+      "folder": "141-linked-list-cycle",
+      "title": "Linked List Cycle",
+      "difficulty": "Easy",
+      "topics": [
+        "Hash Table",
+        "Linked List",
+        "Two Pointers",
+        "Floyd's Cycle Finding Algorithm"
+      ],
+      "languages": [],
+      "solution_file": null,
+      "date": "2026-09-05",
+      "raw_url": null,
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/141-linked-list-cycle",
+      "leetcode_url": "https://leetcode.com/problems/linked-list-cycle/"
     },
     {
       "number": 189,
