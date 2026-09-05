@@ -37,6 +37,16 @@
       "Sorting"
     ]
   },
+  "happy-number": {
+    "difficulty": "Easy",
+    "title": "Happy Number",
+    "topics": [
+      "Hash Table",
+      "Math",
+      "Two Pointers",
+      "Floyd's Cycle Finding Algorithm"
+    ]
+  },
   "is-subsequence": {
     "difficulty": "Easy",
     "title": "Is Subsequence",

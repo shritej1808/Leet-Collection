@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T10:48:41+00:00",
+  "generated_at": "2026-09-05T11:02:56+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -142,6 +142,27 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/189-rotate-array/rotate-array.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/189-rotate-array",
       "leetcode_url": "https://leetcode.com/problems/rotate-array/"
+    },
+    {
+      "number": 202,
+      "slug": "happy-number",
+      "folder": "202-happy-number",
+      "title": "Happy Number",
+      "difficulty": "Easy",
+      "topics": [
+        "Hash Table",
+        "Math",
+        "Two Pointers",
+        "Floyd's Cycle Finding Algorithm"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "happy-number.java",
+      "date": "2026-09-05",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/202-happy-number/happy-number.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/202-happy-number",
+      "leetcode_url": "https://leetcode.com/problems/happy-number/"
     },
     {
       "number": 238,
