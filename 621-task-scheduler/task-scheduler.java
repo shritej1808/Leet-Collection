@@ -4,17 +4,18 @@ class Solution {
         for(char c: tasks){
             map.merge(c,1,Integer::sum);
         }
-        int freqMax=0;
+        int freqCount=0;
         for(int freq: map.values()){
-            freqMax=Math.max(freqMax,freq);
+            freqCount=Math.max(freqCount,freq);
         }
         int maxCount=0;
         for(int freq: map.values()){
-            if(freq==freqMax){
+            if(freq==freqCount){
                 maxCount++;
             }
         }
-        int result=(freqMax-1)*(n+1)+maxCount;
+        int result=(freqCount-1)*(n+1)+maxCount;
         return Math.max(result,tasks.length);
+
     }
 }
