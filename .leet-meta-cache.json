@@ -27,6 +27,18 @@
       "Simulation"
     ]
   },
+  "find-the-duplicate-number": {
+    "difficulty": "Medium",
+    "title": "Find the Duplicate Number",
+    "topics": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Bit Manipulation",
+      "Pigeonhole Principle",
+      "Floyd's Cycle Finding Algorithm"
+    ]
+  },
   "game-of-life": {
     "difficulty": "Medium",
     "title": "Game of Life",
