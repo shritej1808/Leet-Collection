@@ -97,6 +97,15 @@
       "Enumeration"
     ]
   },
+  "longest-substring-without-repeating-characters": {
+    "difficulty": "Medium",
+    "title": "Longest Substring Without Repeating Characters",
+    "topics": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
   "merge-sorted-array": {
     "difficulty": "Easy",
     "title": "Merge Sorted Array",

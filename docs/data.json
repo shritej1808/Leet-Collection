@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-09-05T11:51:55+00:00",
+  "generated_at": "2026-09-06T07:03:13+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
+    {
+      "number": 3,
+      "slug": "longest-substring-without-repeating-characters",
+      "folder": "3-longest-substring-without-repeating-characters",
+      "title": "Longest Substring Without Repeating Characters",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "String",
+        "Sliding Window"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "longest-substring-without-repeating-characters.java",
+      "date": "2026-09-06",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/3-longest-substring-without-repeating-characters/longest-substring-without-repeating-characters.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/3-longest-substring-without-repeating-characters",
+      "leetcode_url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+    },
     {
       "number": 48,
       "slug": "rotate-image",
@@ -518,7 +538,7 @@
       "name": "Quarter Century",
       "icon": "\ud83e\udd49",
       "desc": "Solve 25 problems",
-      "unlocked": false
+      "unlocked": true
     },
     {
       "id": "half-century",
