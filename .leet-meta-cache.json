@@ -115,6 +115,16 @@
       "Sorting"
     ]
   },
+  "minimum-size-subarray-sum": {
+    "difficulty": "Medium",
+    "title": "Minimum Size Subarray Sum",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Sliding Window",
+      "Prefix Sum"
+    ]
+  },
   "product-of-array-except-self": {
     "difficulty": "Medium",
     "title": "Product of Array Except Self",
