@@ -106,6 +106,16 @@
       "Sliding Window"
     ]
   },
+  "max-consecutive-ones-iii": {
+    "difficulty": "Medium",
+    "title": "Max Consecutive Ones III",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Sliding Window",
+      "Prefix Sum"
+    ]
+  },
   "merge-sorted-array": {
     "difficulty": "Easy",
     "title": "Merge Sorted Array",

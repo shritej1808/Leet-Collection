@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T14:01:43+00:00",
+  "generated_at": "2026-09-07T14:16:06+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -516,6 +516,27 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/921-spiral-matrix-iii/spiral-matrix-iii.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/921-spiral-matrix-iii",
       "leetcode_url": "https://leetcode.com/problems/spiral-matrix-iii/"
+    },
+    {
+      "number": 1046,
+      "slug": "max-consecutive-ones-iii",
+      "folder": "1046-max-consecutive-ones-iii",
+      "title": "Max Consecutive Ones III",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Binary Search",
+        "Sliding Window",
+        "Prefix Sum"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "max-consecutive-ones-iii.java",
+      "date": "2026-09-07",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/1046-max-consecutive-ones-iii/max-consecutive-ones-iii.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/1046-max-consecutive-ones-iii",
+      "leetcode_url": "https://leetcode.com/problems/max-consecutive-ones-iii/"
     },
     {
       "number": 2411,
