@@ -143,6 +143,17 @@
       "Prefix Sum"
     ]
   },
+  "product-of-the-last-k-numbers": {
+    "difficulty": "Medium",
+    "title": "Product of the Last K Numbers",
+    "topics": [
+      "Array",
+      "Math",
+      "Design",
+      "Data Stream",
+      "Prefix Sum"
+    ]
+  },
   "rotate-array": {
     "difficulty": "Medium",
     "title": "Rotate Array",

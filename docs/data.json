@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T08:04:23+00:00",
+  "generated_at": "2026-09-08T13:42:06+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -537,6 +537,28 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/1046-max-consecutive-ones-iii/max-consecutive-ones-iii.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/1046-max-consecutive-ones-iii",
       "leetcode_url": "https://leetcode.com/problems/max-consecutive-ones-iii/"
+    },
+    {
+      "number": 1477,
+      "slug": "product-of-the-last-k-numbers",
+      "folder": "1477-product-of-the-last-k-numbers",
+      "title": "Product of the Last K Numbers",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Math",
+        "Design",
+        "Data Stream",
+        "Prefix Sum"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "product-of-the-last-k-numbers.java",
+      "date": "2026-09-08",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/1477-product-of-the-last-k-numbers/product-of-the-last-k-numbers.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/1477-product-of-the-last-k-numbers",
+      "leetcode_url": "https://leetcode.com/problems/product-of-the-last-k-numbers/"
     },
     {
       "number": 2411,
