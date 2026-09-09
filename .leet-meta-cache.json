@@ -39,6 +39,18 @@
       "Floyd's Cycle Finding Algorithm"
     ]
   },
+  "frequency-of-the-most-frequent-element": {
+    "difficulty": "Medium",
+    "title": "Frequency of the Most Frequent Element",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Greedy",
+      "Sliding Window",
+      "Sorting",
+      "Prefix Sum"
+    ]
+  },
   "game-of-life": {
     "difficulty": "Medium",
     "title": "Game of Life",

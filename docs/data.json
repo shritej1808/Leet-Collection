@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T08:08:22+00:00",
+  "generated_at": "2026-09-09T14:11:49+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -559,6 +559,29 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/1477-product-of-the-last-k-numbers/product-of-the-last-k-numbers.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/1477-product-of-the-last-k-numbers",
       "leetcode_url": "https://leetcode.com/problems/product-of-the-last-k-numbers/"
+    },
+    {
+      "number": 1966,
+      "slug": "frequency-of-the-most-frequent-element",
+      "folder": "1966-frequency-of-the-most-frequent-element",
+      "title": "Frequency of the Most Frequent Element",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Binary Search",
+        "Greedy",
+        "Sliding Window",
+        "Sorting",
+        "Prefix Sum"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "frequency-of-the-most-frequent-element.java",
+      "date": "2026-09-09",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/1966-frequency-of-the-most-frequent-element/frequency-of-the-most-frequent-element.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/1966-frequency-of-the-most-frequent-element",
+      "leetcode_url": "https://leetcode.com/problems/frequency-of-the-most-frequent-element/"
     },
     {
       "number": 2411,
