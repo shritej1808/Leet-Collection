@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T08:07:22+00:00",
+  "generated_at": "2026-09-10T17:20:44+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -370,6 +370,26 @@
       "leetcode_url": "https://leetcode.com/problems/is-subsequence/"
     },
     {
+      "number": 410,
+      "slug": "split-array-largest-sum",
+      "folder": "410-split-array-largest-sum",
+      "title": "Split Array Largest Sum",
+      "difficulty": "Hard",
+      "topics": [
+        "Array",
+        "Binary Search",
+        "Dynamic Programming",
+        "Greedy",
+        "Prefix Sum"
+      ],
+      "languages": [],
+      "solution_file": null,
+      "date": "2026-09-10",
+      "raw_url": null,
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/410-split-array-largest-sum",
+      "leetcode_url": "https://leetcode.com/problems/split-array-largest-sum/"
+    },
+    {
       "number": 451,
       "slug": "sort-characters-by-frequency",
       "folder": "451-sort-characters-by-frequency",
@@ -660,7 +680,7 @@
       "name": "Hard Mode",
       "icon": "\ud83d\udd34",
       "desc": "Solve your first Hard problem",
-      "unlocked": false
+      "unlocked": true
     },
     {
       "id": "hardcore",

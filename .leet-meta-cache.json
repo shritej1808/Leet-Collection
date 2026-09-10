@@ -242,6 +242,17 @@
       "Simulation"
     ]
   },
+  "split-array-largest-sum": {
+    "difficulty": "Hard",
+    "title": "Split Array Largest Sum",
+    "topics": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Greedy",
+      "Prefix Sum"
+    ]
+  },
   "task-scheduler": {
     "difficulty": "Medium",
     "title": "Task Scheduler",
