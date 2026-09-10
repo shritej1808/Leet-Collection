@@ -17,16 +17,18 @@ class Solution {
                     currSum=num;
                 }
                 else{
+
                     currSum+=num;
                 }
+                
+
             }
             if(subarrays<=k){
-                right=mid;
-            }
-            else{
-                left=mid+1;
-            }
-
+                    right=mid;
+                }
+                else{
+                    left=mid+1;
+                }
 
         }
         return left;
