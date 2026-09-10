@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T17:20:44+00:00",
+  "generated_at": "2026-09-10T17:40:13+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -382,10 +382,12 @@
         "Greedy",
         "Prefix Sum"
       ],
-      "languages": [],
-      "solution_file": null,
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "split-array-largest-sum.java",
       "date": "2026-09-10",
-      "raw_url": null,
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/410-split-array-largest-sum/split-array-largest-sum.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/410-split-array-largest-sum",
       "leetcode_url": "https://leetcode.com/problems/split-array-largest-sum/"
     },

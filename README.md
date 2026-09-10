@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Medium-21-FFA116?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Hard-1-FF4C4C?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Trophies-8/13-FFD700?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Last%20Updated-2026-09-10.17%3A20.UTC-444?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Last%20Updated-2026-09-10.17%3A40.UTC-444?style=for-the-badge" />
 </p>
 
 > ℹ️ Set the `LEETCODE_USERNAME` repo variable to show a live LeetCode stats card + submission heatmap here.
@@ -52,7 +52,7 @@
 | 289 | [Game of Life](https://leetcode.com/problems/game-of-life/) <br/> [289-game-of-life](./289-game-of-life) | 🟡 Medium | Java | Array, Matrix, Simulation | 2026-08-30 |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) <br/> [347-top-k-frequent-elements](./347-top-k-frequent-elements) | 🟡 Medium | Java | Array, Hash Table, Divide and Conquer… | 2026-09-03 |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) <br/> [392-is-subsequence](./392-is-subsequence) | 🟢 Easy | Java | Two Pointers, String, Dynamic Programming | 2026-08-27 |
-| 410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) <br/> [410-split-array-largest-sum](./410-split-array-largest-sum) | 🔴 Hard | — | Array, Binary Search, Dynamic Programming… | 2026-09-10 |
+| 410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) <br/> [410-split-array-largest-sum](./410-split-array-largest-sum) | 🔴 Hard | Java | Array, Binary Search, Dynamic Programming… | 2026-09-10 |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) <br/> [451-sort-characters-by-frequency](./451-sort-characters-by-frequency) | 🟡 Medium | Java | Hash Table, String, Sorting… | 2026-09-04 |
 | 498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) <br/> [498-diagonal-traverse](./498-diagonal-traverse) | 🟡 Medium | Java | Array, Matrix, Simulation | 2026-09-01 |
 | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) <br/> [621-task-scheduler](./621-task-scheduler) | 🟡 Medium | Java | Array, Hash Table, Greedy… | 2026-09-04 |
@@ -66,4 +66,4 @@
 | 2411 | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/) <br/> [2411-spiral-matrix-iv](./2411-spiral-matrix-iv) | 🟡 Medium | Java | Array, Linked List, Matrix… | 2026-08-28 |
 
 ---
-<p align="center"><sub>Auto-generated on 2026-09-10 17:20 UTC by <code>scripts/generate_readme.py</code> · <a href="https://github.com/shritej1808/Leet-Collection/actions">view workflow runs</a></sub></p>
+<p align="center"><sub>Auto-generated on 2026-09-10 17:40 UTC by <code>scripts/generate_readme.py</code> · <a href="https://github.com/shritej1808/Leet-Collection/actions">view workflow runs</a></sub></p>
