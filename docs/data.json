@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T08:40:10+00:00",
+  "generated_at": "2026-09-15T13:12:52+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -390,6 +390,25 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/410-split-array-largest-sum/split-array-largest-sum.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/410-split-array-largest-sum",
       "leetcode_url": "https://leetcode.com/problems/split-array-largest-sum/"
+    },
+    {
+      "number": 448,
+      "slug": "find-all-numbers-disappeared-in-an-array",
+      "folder": "448-find-all-numbers-disappeared-in-an-array",
+      "title": "Find All Numbers Disappeared in an Array",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "find-all-numbers-disappeared-in-an-array.java",
+      "date": "2026-09-15",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/448-find-all-numbers-disappeared-in-an-array/find-all-numbers-disappeared-in-an-array.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/448-find-all-numbers-disappeared-in-an-array",
+      "leetcode_url": "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/"
     },
     {
       "number": 451,

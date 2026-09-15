@@ -27,6 +27,14 @@
       "Simulation"
     ]
   },
+  "find-all-numbers-disappeared-in-an-array": {
+    "difficulty": "Easy",
+    "title": "Find All Numbers Disappeared in an Array",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
   "find-the-duplicate-number": {
     "difficulty": "Medium",
     "title": "Find the Duplicate Number",
