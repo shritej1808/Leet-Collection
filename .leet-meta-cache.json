@@ -56,6 +56,14 @@
       "Floyd's Cycle Finding Algorithm"
     ]
   },
+  "first-missing-positive": {
+    "difficulty": "Hard",
+    "title": "First Missing Positive",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ]
+  },
   "frequency-of-the-most-frequent-element": {
     "difficulty": "Medium",
     "title": "Frequency of the Most Frequent Element",
