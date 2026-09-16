@@ -2,12 +2,12 @@
 <p align="center">Auto-generated LeetCode solution archive, synced with <a href="https://github.com/3ba2ii/LeetSync">LeetSync</a> and self-updating on every push.</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Solved-31-5865F2?style=for-the-badge" alt="total solved" />
+  <img src="https://img.shields.io/badge/Solved-32-5865F2?style=for-the-badge" alt="total solved" />
   <img src="https://img.shields.io/badge/Easy-9-3CB371?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Medium-21-FFA116?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Medium-22-FFA116?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Hard-1-FF4C4C?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Trophies-8/13-FFD700?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Last%20Updated-2026-09-16.08%3A34.UTC-444?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Last%20Updated-2026-09-16.13%3A33.UTC-444?style=for-the-badge" />
 </p>
 
 > ℹ️ Set the `LEETCODE_USERNAME` repo variable to show a live LeetCode stats card + submission heatmap here.
@@ -26,8 +26,8 @@
 ## 📊 Breakdown
 
 <p align="center">
-  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B9%2C%2021%2C%201%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233CB371%22%2C%20%22%23FFA116%22%2C%20%22%23FF4C4C%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22labels%22%3A%20%7B%22color%22%3A%20%22gray%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2014%7D%7D%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Solved%20by%20Difficulty%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%7D%7D&backgroundColor=transparent&width=380&height=260" alt="difficulty breakdown" width="380"/>
-  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22bar%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Array%22%2C%20%22Hash%20Table%22%2C%20%22Matrix%22%2C%20%22Simulation%22%2C%20%22Two%20Pointers%22%2C%20%22Sorting%22%2C%20%22String%22%2C%20%22Prefix%20Sum%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22label%22%3A%20%22Problems%22%2C%20%22data%22%3A%20%5B24%2C%2011%2C%209%2C%208%2C%208%2C%207%2C%206%2C%206%5D%2C%20%22backgroundColor%22%3A%20%22%235865F2%22%7D%5D%7D%2C%20%22options%22%3A%20%7B%22indexAxis%22%3A%20%22y%22%2C%20%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22display%22%3A%20false%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Top%20Topics%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%2C%20%22scales%22%3A%20%7B%22x%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22gray%22%7D%7D%2C%20%22y%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22gray%22%7D%7D%7D%7D%7D&backgroundColor=transparent&width=420&height=280" alt="top topics" width="420"/>
+  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B9%2C%2022%2C%201%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233CB371%22%2C%20%22%23FFA116%22%2C%20%22%23FF4C4C%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22labels%22%3A%20%7B%22color%22%3A%20%22gray%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2014%7D%7D%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Solved%20by%20Difficulty%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%7D%7D&backgroundColor=transparent&width=380&height=260" alt="difficulty breakdown" width="380"/>
+  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22bar%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Array%22%2C%20%22Hash%20Table%22%2C%20%22Matrix%22%2C%20%22Sorting%22%2C%20%22Simulation%22%2C%20%22Two%20Pointers%22%2C%20%22String%22%2C%20%22Prefix%20Sum%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22label%22%3A%20%22Problems%22%2C%20%22data%22%3A%20%5B25%2C%2012%2C%209%2C%208%2C%208%2C%208%2C%206%2C%206%5D%2C%20%22backgroundColor%22%3A%20%22%235865F2%22%7D%5D%7D%2C%20%22options%22%3A%20%7B%22indexAxis%22%3A%20%22y%22%2C%20%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22display%22%3A%20false%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Top%20Topics%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%2C%20%22scales%22%3A%20%7B%22x%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22gray%22%7D%7D%2C%20%22y%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22gray%22%7D%7D%7D%7D%7D&backgroundColor=transparent&width=420&height=280" alt="top topics" width="420"/>
 </p>
 
 ## 📚 Solutions
@@ -53,6 +53,7 @@
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) <br/> [347-top-k-frequent-elements](./347-top-k-frequent-elements) | 🟡 Medium | Java | Array, Hash Table, Divide and Conquer… | 2026-09-03 |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) <br/> [392-is-subsequence](./392-is-subsequence) | 🟢 Easy | Java | Two Pointers, String, Dynamic Programming | 2026-08-27 |
 | 410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) <br/> [410-split-array-largest-sum](./410-split-array-largest-sum) | 🔴 Hard | Java | Array, Binary Search, Dynamic Programming… | 2026-09-10 |
+| 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) <br/> [442-find-all-duplicates-in-an-array](./442-find-all-duplicates-in-an-array) | 🟡 Medium | Java | Array, Hash Table, Sorting | 2026-09-16 |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) <br/> [448-find-all-numbers-disappeared-in-an-array](./448-find-all-numbers-disappeared-in-an-array) | 🟢 Easy | Java | Array, Hash Table | 2026-09-15 |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) <br/> [451-sort-characters-by-frequency](./451-sort-characters-by-frequency) | 🟡 Medium | Java | Hash Table, String, Sorting… | 2026-09-04 |
 | 498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) <br/> [498-diagonal-traverse](./498-diagonal-traverse) | 🟡 Medium | Java | Array, Matrix, Simulation | 2026-09-01 |
@@ -67,4 +68,4 @@
 | 2411 | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/) <br/> [2411-spiral-matrix-iv](./2411-spiral-matrix-iv) | 🟡 Medium | Java | Array, Linked List, Matrix… | 2026-08-28 |
 
 ---
-<p align="center"><sub>Auto-generated on 2026-09-16 08:34 UTC by <code>scripts/generate_readme.py</code> · <a href="https://github.com/shritej1808/Leet-Collection/actions">view workflow runs</a></sub></p>
+<p align="center"><sub>Auto-generated on 2026-09-16 13:33 UTC by <code>scripts/generate_readme.py</code> · <a href="https://github.com/shritej1808/Leet-Collection/actions">view workflow runs</a></sub></p>
