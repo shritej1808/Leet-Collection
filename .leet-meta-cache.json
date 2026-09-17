@@ -162,6 +162,14 @@
       "Sorting"
     ]
   },
+  "merge-two-sorted-lists": {
+    "difficulty": "Easy",
+    "title": "Merge Two Sorted Lists",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
   "minimum-size-subarray-sum": {
     "difficulty": "Medium",
     "title": "Minimum Size Subarray Sum",
