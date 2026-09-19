@@ -180,6 +180,16 @@
       "Prefix Sum"
     ]
   },
+  "palindrome-linked-list": {
+    "difficulty": "Easy",
+    "title": "Palindrome Linked List",
+    "topics": [
+      "Linked List",
+      "Two Pointers",
+      "Stack",
+      "Recursion"
+    ]
+  },
   "product-of-array-except-self": {
     "difficulty": "Medium",
     "title": "Product of Array Except Self",
