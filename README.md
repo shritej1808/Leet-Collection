@@ -2,12 +2,12 @@
 <p align="center">Auto-generated LeetCode solution archive, synced with <a href="https://github.com/3ba2ii/LeetSync">LeetSync</a> and self-updating on every push.</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Solved-35-5865F2?style=for-the-badge" alt="total solved" />
-  <img src="https://img.shields.io/badge/Easy-11-3CB371?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Solved-36-5865F2?style=for-the-badge" alt="total solved" />
+  <img src="https://img.shields.io/badge/Easy-12-3CB371?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Medium-22-FFA116?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Hard-2-FF4C4C?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Trophies-9/13-FFD700?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Last%20Updated-2026-09-20.08%3A34.UTC-444?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Last%20Updated-2026-09-20.10%3A17.UTC-444?style=for-the-badge" />
 </p>
 
 > ℹ️ Set the `LEETCODE_USERNAME` repo variable to show a live LeetCode stats card + submission heatmap here.
@@ -26,7 +26,7 @@
 ## 📊 Breakdown
 
 <p align="center">
-  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B11%2C%2022%2C%202%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233CB371%22%2C%20%22%23FFA116%22%2C%20%22%23FF4C4C%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22labels%22%3A%20%7B%22color%22%3A%20%22gray%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2014%7D%7D%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Solved%20by%20Difficulty%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%7D%7D&backgroundColor=transparent&width=380&height=260" alt="difficulty breakdown" width="380"/>
+  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B12%2C%2022%2C%202%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233CB371%22%2C%20%22%23FFA116%22%2C%20%22%23FF4C4C%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22labels%22%3A%20%7B%22color%22%3A%20%22gray%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2014%7D%7D%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Solved%20by%20Difficulty%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%7D%7D&backgroundColor=transparent&width=380&height=260" alt="difficulty breakdown" width="380"/>
   <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22bar%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Array%22%2C%20%22Hash%20Table%22%2C%20%22Matrix%22%2C%20%22Two%20Pointers%22%2C%20%22Sorting%22%2C%20%22Simulation%22%2C%20%22String%22%2C%20%22Prefix%20Sum%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22label%22%3A%20%22Problems%22%2C%20%22data%22%3A%20%5B26%2C%2013%2C%209%2C%209%2C%208%2C%208%2C%206%2C%206%5D%2C%20%22backgroundColor%22%3A%20%22%235865F2%22%7D%5D%7D%2C%20%22options%22%3A%20%7B%22indexAxis%22%3A%20%22y%22%2C%20%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22display%22%3A%20false%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Top%20Topics%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%2C%20%22scales%22%3A%20%7B%22x%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22gray%22%7D%7D%2C%20%22y%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22gray%22%7D%7D%7D%7D%7D&backgroundColor=transparent&width=420&height=280" alt="top topics" width="420"/>
 </p>
 
@@ -46,6 +46,7 @@
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) <br/> [141-linked-list-cycle](./141-linked-list-cycle) | 🟢 Easy | — | Hash Table, Linked List, Two Pointers… | 2026-09-05 |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) <br/> [189-rotate-array](./189-rotate-array) | 🟡 Medium | Java | Array, Math, Two Pointers | 2026-08-27 |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) <br/> [202-happy-number](./202-happy-number) | 🟢 Easy | Java | Hash Table, Math, Two Pointers… | 2026-09-05 |
+| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) <br/> [206-reverse-linked-list](./206-reverse-linked-list) | 🟢 Easy | Java | Linked List, Recursion | 2026-09-20 |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) <br/> [209-minimum-size-subarray-sum](./209-minimum-size-subarray-sum) | 🟡 Medium | Java | Array, Binary Search, Sliding Window… | 2026-09-07 |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) <br/> [219-contains-duplicate-ii](./219-contains-duplicate-ii) | 🟢 Easy | Java | Array, Hash Table, Sliding Window | 2026-09-05 |
 | 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) <br/> [234-palindrome-linked-list](./234-palindrome-linked-list) | 🟢 Easy | Java | Linked List, Two Pointers, Stack… | 2026-09-20 |
@@ -71,4 +72,4 @@
 | 2411 | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/) <br/> [2411-spiral-matrix-iv](./2411-spiral-matrix-iv) | 🟡 Medium | Java | Array, Linked List, Matrix… | 2026-08-28 |
 
 ---
-<p align="center"><sub>Auto-generated on 2026-09-20 08:34 UTC by <code>scripts/generate_readme.py</code> · <a href="https://github.com/shritej1808/Leet-Collection/actions">view workflow runs</a></sub></p>
+<p align="center"><sub>Auto-generated on 2026-09-20 10:17 UTC by <code>scripts/generate_readme.py</code> · <a href="https://github.com/shritej1808/Leet-Collection/actions">view workflow runs</a></sub></p>

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T08:34:30+00:00",
+  "generated_at": "2026-09-20T10:17:18+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -240,6 +240,25 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/202-happy-number/happy-number.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/202-happy-number",
       "leetcode_url": "https://leetcode.com/problems/happy-number/"
+    },
+    {
+      "number": 206,
+      "slug": "reverse-linked-list",
+      "folder": "206-reverse-linked-list",
+      "title": "Reverse Linked List",
+      "difficulty": "Easy",
+      "topics": [
+        "Linked List",
+        "Recursion"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "reverse-linked-list.java",
+      "date": "2026-09-20",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/206-reverse-linked-list/reverse-linked-list.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/206-reverse-linked-list",
+      "leetcode_url": "https://leetcode.com/problems/reverse-linked-list/"
     },
     {
       "number": 209,

@@ -209,6 +209,14 @@
       "Prefix Sum"
     ]
   },
+  "reverse-linked-list": {
+    "difficulty": "Easy",
+    "title": "Reverse Linked List",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
   "rotate-array": {
     "difficulty": "Medium",
     "title": "Rotate Array",
