@@ -209,6 +209,13 @@
       "Prefix Sum"
     ]
   },
+  "remove-duplicates-from-sorted-list": {
+    "difficulty": "Easy",
+    "title": "Remove Duplicates from Sorted List",
+    "topics": [
+      "Linked List"
+    ]
+  },
   "reverse-linked-list": {
     "difficulty": "Easy",
     "title": "Reverse Linked List",
