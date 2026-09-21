@@ -216,6 +216,14 @@
       "Linked List"
     ]
   },
+  "remove-duplicates-from-sorted-list-ii": {
+    "difficulty": "Medium",
+    "title": "Remove Duplicates from Sorted List II",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ]
+  },
   "reverse-linked-list": {
     "difficulty": "Easy",
     "title": "Reverse Linked List",

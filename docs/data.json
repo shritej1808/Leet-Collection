@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T08:55:50+00:00",
+  "generated_at": "2026-09-21T18:23:49+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -160,6 +160,25 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/73-set-matrix-zeroes/set-matrix-zeroes.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/73-set-matrix-zeroes",
       "leetcode_url": "https://leetcode.com/problems/set-matrix-zeroes/"
+    },
+    {
+      "number": 82,
+      "slug": "remove-duplicates-from-sorted-list-ii",
+      "folder": "82-remove-duplicates-from-sorted-list-ii",
+      "title": "Remove Duplicates from Sorted List II",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Two Pointers"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "remove-duplicates-from-sorted-list-ii.java",
+      "date": "2026-09-21",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/82-remove-duplicates-from-sorted-list-ii/remove-duplicates-from-sorted-list-ii.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/82-remove-duplicates-from-sorted-list-ii",
+      "leetcode_url": "https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/"
     },
     {
       "number": 83,
