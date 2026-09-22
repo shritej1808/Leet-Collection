@@ -232,6 +232,14 @@
       "Recursion"
     ]
   },
+  "reverse-nodes-in-k-group": {
+    "difficulty": "Hard",
+    "title": "Reverse Nodes in k-Group",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
   "rotate-array": {
     "difficulty": "Medium",
     "title": "Rotate Array",
