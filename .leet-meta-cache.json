@@ -179,6 +179,15 @@
       "Recursion"
     ]
   },
+  "minimum-index-sum-of-two-lists": {
+    "difficulty": "Easy",
+    "title": "Minimum Index Sum of Two Lists",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "String"
+    ]
+  },
   "minimum-size-subarray-sum": {
     "difficulty": "Medium",
     "title": "Minimum Size Subarray Sum",

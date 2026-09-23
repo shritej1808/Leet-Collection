@@ -2,12 +2,12 @@
 <p align="center">Auto-generated LeetCode solution archive, synced with <a href="https://github.com/3ba2ii/LeetSync">LeetSync</a> and self-updating on every push.</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Solved-40-5865F2?style=for-the-badge" alt="total solved" />
-  <img src="https://img.shields.io/badge/Easy-14-3CB371?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Solved-41-5865F2?style=for-the-badge" alt="total solved" />
+  <img src="https://img.shields.io/badge/Easy-15-3CB371?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Medium-23-FFA116?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Hard-3-FF4C4C?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Trophies-9/13-FFD700?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Last%20Updated-2026-09-23.14%3A20.UTC-444?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Last%20Updated-2026-09-23.14%3A47.UTC-444?style=for-the-badge" />
 </p>
 
 > ℹ️ Set the `LEETCODE_USERNAME` repo variable to show a live LeetCode stats card + submission heatmap here.
@@ -26,8 +26,8 @@
 ## 📊 Breakdown
 
 <p align="center">
-  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B14%2C%2023%2C%203%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233CB371%22%2C%20%22%23FFA116%22%2C%20%22%23FF4C4C%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22labels%22%3A%20%7B%22color%22%3A%20%22gray%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2014%7D%7D%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Solved%20by%20Difficulty%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%7D%7D&backgroundColor=transparent&width=380&height=260" alt="difficulty breakdown" width="380"/>
-  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22bar%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Array%22%2C%20%22Hash%20Table%22%2C%20%22Two%20Pointers%22%2C%20%22Linked%20List%22%2C%20%22Matrix%22%2C%20%22Sorting%22%2C%20%22Simulation%22%2C%20%22String%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22label%22%3A%20%22Problems%22%2C%20%22data%22%3A%20%5B26%2C%2014%2C%2011%2C%209%2C%209%2C%208%2C%208%2C%206%5D%2C%20%22backgroundColor%22%3A%20%22%235865F2%22%7D%5D%7D%2C%20%22options%22%3A%20%7B%22indexAxis%22%3A%20%22y%22%2C%20%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22display%22%3A%20false%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Top%20Topics%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%2C%20%22scales%22%3A%20%7B%22x%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22gray%22%7D%7D%2C%20%22y%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22gray%22%7D%7D%7D%7D%7D&backgroundColor=transparent&width=420&height=280" alt="top topics" width="420"/>
+  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B15%2C%2023%2C%203%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233CB371%22%2C%20%22%23FFA116%22%2C%20%22%23FF4C4C%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22labels%22%3A%20%7B%22color%22%3A%20%22gray%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2014%7D%7D%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Solved%20by%20Difficulty%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%7D%7D&backgroundColor=transparent&width=380&height=260" alt="difficulty breakdown" width="380"/>
+  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22bar%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Array%22%2C%20%22Hash%20Table%22%2C%20%22Two%20Pointers%22%2C%20%22Linked%20List%22%2C%20%22Matrix%22%2C%20%22Sorting%22%2C%20%22Simulation%22%2C%20%22String%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22label%22%3A%20%22Problems%22%2C%20%22data%22%3A%20%5B27%2C%2015%2C%2011%2C%209%2C%209%2C%208%2C%208%2C%207%5D%2C%20%22backgroundColor%22%3A%20%22%235865F2%22%7D%5D%7D%2C%20%22options%22%3A%20%7B%22indexAxis%22%3A%20%22y%22%2C%20%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22display%22%3A%20false%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Top%20Topics%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%2C%20%22scales%22%3A%20%7B%22x%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22gray%22%7D%7D%2C%20%22y%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22gray%22%7D%7D%7D%7D%7D&backgroundColor=transparent&width=420&height=280" alt="top topics" width="420"/>
 </p>
 
 ## 📚 Solutions
@@ -65,6 +65,7 @@
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) <br/> [448-find-all-numbers-disappeared-in-an-array](./448-find-all-numbers-disappeared-in-an-array) | 🟢 Easy | Java | Array, Hash Table | 2026-09-15 |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) <br/> [451-sort-characters-by-frequency](./451-sort-characters-by-frequency) | 🟡 Medium | Java | Hash Table, String, Sorting… | 2026-09-04 |
 | 498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) <br/> [498-diagonal-traverse](./498-diagonal-traverse) | 🟡 Medium | Java | Array, Matrix, Simulation | 2026-09-01 |
+| 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) <br/> [599-minimum-index-sum-of-two-lists](./599-minimum-index-sum-of-two-lists) | 🟢 Easy | Java | Array, Hash Table, String | 2026-09-23 |
 | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) <br/> [621-task-scheduler](./621-task-scheduler) | 🟡 Medium | Java | Array, Hash Table, Greedy… | 2026-09-04 |
 | 874 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) <br/> [874-backspace-string-compare](./874-backspace-string-compare) | 🟢 Easy | Java | Two Pointers, String, Stack… | 2026-08-27 |
 | 875 | [Longest Mountain in Array](https://leetcode.com/problems/longest-mountain-in-array/) <br/> [875-longest-mountain-in-array](./875-longest-mountain-in-array) | 🟡 Medium | Java | Array, Two Pointers, Dynamic Programming… | 2026-09-02 |
@@ -76,4 +77,4 @@
 | 2411 | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/) <br/> [2411-spiral-matrix-iv](./2411-spiral-matrix-iv) | 🟡 Medium | Java | Array, Linked List, Matrix… | 2026-08-28 |
 
 ---
-<p align="center"><sub>Auto-generated on 2026-09-23 14:20 UTC by <code>scripts/generate_readme.py</code> · <a href="https://github.com/shritej1808/Leet-Collection/actions">view workflow runs</a></sub></p>
+<p align="center"><sub>Auto-generated on 2026-09-23 14:47 UTC by <code>scripts/generate_readme.py</code> · <a href="https://github.com/shritej1808/Leet-Collection/actions">view workflow runs</a></sub></p>

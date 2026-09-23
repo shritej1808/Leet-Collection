@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T14:20:17+00:00",
+  "generated_at": "2026-09-23T14:47:45+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -626,6 +626,26 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/498-diagonal-traverse/diagonal-traverse.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/498-diagonal-traverse",
       "leetcode_url": "https://leetcode.com/problems/diagonal-traverse/"
+    },
+    {
+      "number": 599,
+      "slug": "minimum-index-sum-of-two-lists",
+      "folder": "599-minimum-index-sum-of-two-lists",
+      "title": "Minimum Index Sum of Two Lists",
+      "difficulty": "Easy",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "String"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "minimum-index-sum-of-two-lists.java",
+      "date": "2026-09-23",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/599-minimum-index-sum-of-two-lists/minimum-index-sum-of-two-lists.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/599-minimum-index-sum-of-two-lists",
+      "leetcode_url": "https://leetcode.com/problems/minimum-index-sum-of-two-lists/"
     },
     {
       "number": 621,
