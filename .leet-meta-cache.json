@@ -105,6 +105,15 @@
       "Floyd's Cycle Finding Algorithm"
     ]
   },
+  "intersection-of-two-linked-lists": {
+    "difficulty": "Easy",
+    "title": "Intersection of Two Linked Lists",
+    "topics": [
+      "Hash Table",
+      "Linked List",
+      "Two Pointers"
+    ]
+  },
   "is-subsequence": {
     "difficulty": "Easy",
     "title": "Is Subsequence",
