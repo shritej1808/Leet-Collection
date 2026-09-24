@@ -20,7 +20,7 @@ class Solution {
         ListNode secondHalf=reverse(slowptr);
         ListNode firstHalf=head;
 
-        while(firstHalf.next!=null && secondHalf!=null){
+        while(secondHalf!=null){
             if(firstHalf.val!=secondHalf.val){
                 return false;
             }
