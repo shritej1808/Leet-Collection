@@ -250,6 +250,13 @@
       "Recursion"
     ]
   },
+  "reverse-linked-list-ii": {
+    "difficulty": "Medium",
+    "title": "Reverse Linked List II",
+    "topics": [
+      "Linked List"
+    ]
+  },
   "reverse-nodes-in-k-group": {
     "difficulty": "Hard",
     "title": "Reverse Nodes in k-Group",
