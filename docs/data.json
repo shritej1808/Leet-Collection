@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-09-27T09:14:44+00:00",
+  "generated_at": "2026-09-27T09:52:24+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
+    {
+      "number": 2,
+      "slug": "add-two-numbers",
+      "folder": "2-add-two-numbers",
+      "title": "Add Two Numbers",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Math",
+        "Recursion"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "add-two-numbers.java",
+      "date": "2026-09-27",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/2-add-two-numbers/add-two-numbers.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/2-add-two-numbers",
+      "leetcode_url": "https://leetcode.com/problems/add-two-numbers/"
+    },
     {
       "number": 3,
       "slug": "longest-substring-without-repeating-characters",

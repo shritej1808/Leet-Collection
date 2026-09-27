@@ -1,4 +1,13 @@
 {
+  "add-two-numbers": {
+    "difficulty": "Medium",
+    "title": "Add Two Numbers",
+    "topics": [
+      "Linked List",
+      "Math",
+      "Recursion"
+    ]
+  },
   "backspace-string-compare": {
     "difficulty": "Easy",
     "title": "Backspace String Compare",
