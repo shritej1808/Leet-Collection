@@ -217,6 +217,14 @@
       "Recursion"
     ]
   },
+  "partition-list": {
+    "difficulty": "Medium",
+    "title": "Partition List",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ]
+  },
   "product-of-array-except-self": {
     "difficulty": "Medium",
     "title": "Product of Array Except Self",

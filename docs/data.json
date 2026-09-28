@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T14:24:06+00:00",
+  "generated_at": "2026-09-28T14:36:12+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -255,6 +255,25 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/83-remove-duplicates-from-sorted-list/remove-duplicates-from-sorted-list.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/83-remove-duplicates-from-sorted-list",
       "leetcode_url": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/"
+    },
+    {
+      "number": 86,
+      "slug": "partition-list",
+      "folder": "86-partition-list",
+      "title": "Partition List",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Two Pointers"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "partition-list.java",
+      "date": "2026-09-28",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/86-partition-list/partition-list.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/86-partition-list",
+      "leetcode_url": "https://leetcode.com/problems/partition-list/"
     },
     {
       "number": 88,
