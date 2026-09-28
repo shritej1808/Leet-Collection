@@ -292,6 +292,14 @@
       "Matrix"
     ]
   },
+  "rotate-list": {
+    "difficulty": "Medium",
+    "title": "Rotate List",
+    "topics": [
+      "Linked List",
+      "Two Pointers"
+    ]
+  },
   "set-matrix-zeroes": {
     "difficulty": "Medium",
     "title": "Set Matrix Zeroes",
