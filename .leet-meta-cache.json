@@ -377,6 +377,14 @@
       "Prefix Sum"
     ]
   },
+  "swap-nodes-in-pairs": {
+    "difficulty": "Medium",
+    "title": "Swap Nodes in Pairs",
+    "topics": [
+      "Linked List",
+      "Recursion"
+    ]
+  },
   "task-scheduler": {
     "difficulty": "Medium",
     "title": "Task Scheduler",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T09:48:41+00:00",
+  "generated_at": "2026-09-29T13:16:35+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -60,6 +60,25 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/21-merge-two-sorted-lists/merge-two-sorted-lists.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/21-merge-two-sorted-lists",
       "leetcode_url": "https://leetcode.com/problems/merge-two-sorted-lists/"
+    },
+    {
+      "number": 24,
+      "slug": "swap-nodes-in-pairs",
+      "folder": "24-swap-nodes-in-pairs",
+      "title": "Swap Nodes in Pairs",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List",
+        "Recursion"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "swap-nodes-in-pairs.java",
+      "date": "2026-09-29",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/24-swap-nodes-in-pairs/swap-nodes-in-pairs.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/24-swap-nodes-in-pairs",
+      "leetcode_url": "https://leetcode.com/problems/swap-nodes-in-pairs/"
     },
     {
       "number": 25,
