@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T10:07:13+00:00",
+  "generated_at": "2026-10-01T13:06:17+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -593,6 +593,24 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/289-game-of-life/game-of-life.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/289-game-of-life",
       "leetcode_url": "https://leetcode.com/problems/game-of-life/"
+    },
+    {
+      "number": 328,
+      "slug": "odd-even-linked-list",
+      "folder": "328-odd-even-linked-list",
+      "title": "Odd Even Linked List",
+      "difficulty": "Medium",
+      "topics": [
+        "Linked List"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "odd-even-linked-list.java",
+      "date": "2026-10-01",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/328-odd-even-linked-list/odd-even-linked-list.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/328-odd-even-linked-list",
+      "leetcode_url": "https://leetcode.com/problems/odd-even-linked-list/"
     },
     {
       "number": 347,

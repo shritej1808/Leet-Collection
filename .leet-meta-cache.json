@@ -207,6 +207,13 @@
       "Prefix Sum"
     ]
   },
+  "odd-even-linked-list": {
+    "difficulty": "Medium",
+    "title": "Odd Even Linked List",
+    "topics": [
+      "Linked List"
+    ]
+  },
   "palindrome-linked-list": {
     "difficulty": "Easy",
     "title": "Palindrome Linked List",
