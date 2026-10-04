@@ -19,7 +19,7 @@ class Solution {
         while(even!=null&&even.next!=null){
             odd.next=even.next;
             odd=odd.next;
-            even.next=even.next.next;
+            even.next=odd.next;
             even=even.next;
 
         }
