@@ -16,12 +16,13 @@
 class Solution {
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> answer=new ArrayList<>();
-        if(root!=null) dfs(root,"",answer);
+        dfs(root,"",answer);
         return answer;
     }
     private void dfs(TreeNode node,String path,List<String> answer){
-        if(node.left==null && node.right==null) answer.add(path+node.val);
+        if(node.left==null&&node.right==null) answer.add(path+node.val);
         if(node.left!=null) dfs(node.left,path+node.val+"->",answer);
         if(node.right!=null) dfs(node.right,path+node.val+"->",answer);
+        
     }
 }
