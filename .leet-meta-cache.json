@@ -18,6 +18,17 @@
       "Simulation"
     ]
   },
+  "binary-tree-paths": {
+    "difficulty": "Easy",
+    "title": "Binary Tree Paths",
+    "topics": [
+      "String",
+      "Backtracking",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
   "contains-duplicate-ii": {
     "difficulty": "Easy",
     "title": "Contains Duplicate II",
