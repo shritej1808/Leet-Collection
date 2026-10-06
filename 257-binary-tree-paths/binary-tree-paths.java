@@ -19,10 +19,9 @@ class Solution {
         dfs(root,"",answer);
         return answer;
     }
-    private void dfs(TreeNode node,String path,List<String> answer){
-        if(node.left==null&&node.right==null) answer.add(path+node.val);
-        if(node.left!=null) dfs(node.left,path+node.val+"->",answer);
-        if(node.right!=null) dfs(node.right,path+node.val+"->",answer);
-        
+    private void dfs(TreeNode root, String path,List<String> answer){
+        if(root.left==null&&root.right==null) answer.add(path+root.val);
+        if(root.left!=null) dfs(root.left,path+root.val+"->",answer);
+        if(root.right!=null) dfs(root.right,path+root.val+"->",answer);
     }
 }
