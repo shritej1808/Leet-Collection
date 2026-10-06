@@ -423,6 +423,16 @@
       "Recursion"
     ]
   },
+  "symmetric-tree": {
+    "difficulty": "Easy",
+    "title": "Symmetric Tree",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
   "task-scheduler": {
     "difficulty": "Medium",
     "title": "Task Scheduler",
