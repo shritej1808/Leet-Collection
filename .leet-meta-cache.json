@@ -336,6 +336,16 @@
       "Two Pointers"
     ]
   },
+  "same-tree": {
+    "difficulty": "Easy",
+    "title": "Same Tree",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
   "set-matrix-zeroes": {
     "difficulty": "Medium",
     "title": "Set Matrix Zeroes",
