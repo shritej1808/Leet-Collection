@@ -134,6 +134,16 @@
       "Two Pointers"
     ]
   },
+  "invert-binary-tree": {
+    "difficulty": "Easy",
+    "title": "Invert Binary Tree",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
   "is-subsequence": {
     "difficulty": "Easy",
     "title": "Is Subsequence",

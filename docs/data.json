@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T18:36:50+00:00",
+  "generated_at": "2026-10-06T19:00:37+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -534,6 +534,27 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/219-contains-duplicate-ii/contains-duplicate-ii.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/219-contains-duplicate-ii",
       "leetcode_url": "https://leetcode.com/problems/contains-duplicate-ii/"
+    },
+    {
+      "number": 226,
+      "slug": "invert-binary-tree",
+      "folder": "226-invert-binary-tree",
+      "title": "Invert Binary Tree",
+      "difficulty": "Easy",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "invert-binary-tree.java",
+      "date": "2026-10-07",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/226-invert-binary-tree/invert-binary-tree.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/226-invert-binary-tree",
+      "leetcode_url": "https://leetcode.com/problems/invert-binary-tree/"
     },
     {
       "number": 234,
