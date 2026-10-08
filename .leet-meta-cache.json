@@ -84,6 +84,17 @@
       "Hash Table"
     ]
   },
+  "flatten-binary-tree-to-linked-list": {
+    "difficulty": "Medium",
+    "title": "Flatten Binary Tree to Linked List",
+    "topics": [
+      "Linked List",
+      "Stack",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
   "frequency-of-the-most-frequent-element": {
     "difficulty": "Medium",
     "title": "Frequency of the Most Frequent Element",
