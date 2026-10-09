@@ -376,6 +376,17 @@
       "Matrix"
     ]
   },
+  "smallest-string-starting-from-leaf": {
+    "difficulty": "Medium",
+    "title": "Smallest String Starting From Leaf",
+    "topics": [
+      "String",
+      "Backtracking",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
   "sort-characters-by-frequency": {
     "difficulty": "Medium",
     "title": "Sort Characters By Frequency",

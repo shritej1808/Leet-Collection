@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T10:32:15+00:00",
+  "generated_at": "2026-10-09T14:23:51+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -992,6 +992,28 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/921-spiral-matrix-iii/spiral-matrix-iii.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/921-spiral-matrix-iii",
       "leetcode_url": "https://leetcode.com/problems/spiral-matrix-iii/"
+    },
+    {
+      "number": 1030,
+      "slug": "smallest-string-starting-from-leaf",
+      "folder": "1030-smallest-string-starting-from-leaf",
+      "title": "Smallest String Starting From Leaf",
+      "difficulty": "Medium",
+      "topics": [
+        "String",
+        "Backtracking",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "smallest-string-starting-from-leaf.java",
+      "date": "2026-10-09",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/1030-smallest-string-starting-from-leaf/smallest-string-starting-from-leaf.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/1030-smallest-string-starting-from-leaf",
+      "leetcode_url": "https://leetcode.com/problems/smallest-string-starting-from-leaf/"
     },
     {
       "number": 1046,
