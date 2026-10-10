@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T14:23:51+00:00",
+  "generated_at": "2026-10-10T08:52:22+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -373,6 +373,28 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/101-symmetric-tree/symmetric-tree.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/101-symmetric-tree",
       "leetcode_url": "https://leetcode.com/problems/symmetric-tree/"
+    },
+    {
+      "number": 105,
+      "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+      "folder": "105-construct-binary-tree-from-preorder-and-inorder-traversal",
+      "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+      "difficulty": "Medium",
+      "topics": [
+        "Array",
+        "Hash Table",
+        "Divide and Conquer",
+        "Tree",
+        "Binary Tree"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "construct-binary-tree-from-preorder-and-inorder-traversal.java",
+      "date": "2026-10-10",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/105-construct-binary-tree-from-preorder-and-inorder-traversal/construct-binary-tree-from-preorder-and-inorder-traversal.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/105-construct-binary-tree-from-preorder-and-inorder-traversal",
+      "leetcode_url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/"
     },
     {
       "number": 114,

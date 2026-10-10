@@ -29,6 +29,17 @@
       "Binary Tree"
     ]
   },
+  "construct-binary-tree-from-preorder-and-inorder-traversal": {
+    "difficulty": "Medium",
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Tree",
+      "Binary Tree"
+    ]
+  },
   "contains-duplicate-ii": {
     "difficulty": "Easy",
     "title": "Contains Duplicate II",
