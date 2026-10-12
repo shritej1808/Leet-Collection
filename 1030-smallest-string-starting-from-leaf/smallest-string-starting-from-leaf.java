@@ -19,11 +19,11 @@ class Solution {
        dfs(root,"");
        return ans;
     }
-    private void dfs(TreeNode root,String path){
+    void dfs(TreeNode root, String path){
         if(root==null)return;
-        path=(char) ('a'+root.val)+path;
+        path=(char)('a'+root.val)+path;
         if(root.left==null&&root.right==null){
-            if(ans.equals("")||path.compareTo(ans)<0){
+            if(ans==""||path.compareTo(ans)<0){
                 ans=path;
             }
             return;
