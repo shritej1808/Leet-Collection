@@ -18,6 +18,16 @@
       "Simulation"
     ]
   },
+  "binary-tree-inorder-traversal": {
+    "difficulty": "Easy",
+    "title": "Binary Tree Inorder Traversal",
+    "topics": [
+      "Stack",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
   "binary-tree-paths": {
     "difficulty": "Easy",
     "title": "Binary Tree Paths",

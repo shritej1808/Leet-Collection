@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T13:13:23+00:00",
+  "generated_at": "2026-10-12T16:43:59+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -331,6 +331,27 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/92-reverse-linked-list-ii/reverse-linked-list-ii.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/92-reverse-linked-list-ii",
       "leetcode_url": "https://leetcode.com/problems/reverse-linked-list-ii/"
+    },
+    {
+      "number": 94,
+      "slug": "binary-tree-inorder-traversal",
+      "folder": "94-binary-tree-inorder-traversal",
+      "title": "Binary Tree Inorder Traversal",
+      "difficulty": "Easy",
+      "topics": [
+        "Stack",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "binary-tree-inorder-traversal.java",
+      "date": "2026-10-12",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/94-binary-tree-inorder-traversal/binary-tree-inorder-traversal.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/94-binary-tree-inorder-traversal",
+      "leetcode_url": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
     },
     {
       "number": 100,
