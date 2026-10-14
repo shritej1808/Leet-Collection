@@ -33,15 +33,15 @@ class Solution {
                 int max = Integer.MIN_VALUE;
 List<Integer> result = new ArrayList<>();
 
-for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-    int val = entry.getValue();
+for (int key : map.keySet()) {
+    int val = map.get(key);
 
     if (val > max) {
         max = val;
         result.clear();
-        result.add(entry.getKey());
+        result.add(key);
     } else if (val == max) {
-        result.add(entry.getKey());
+        result.add(key);
     }
 }
 
