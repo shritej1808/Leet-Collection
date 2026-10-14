@@ -85,6 +85,16 @@
       "Hash Table"
     ]
   },
+  "find-mode-in-binary-search-tree": {
+    "difficulty": "Easy",
+    "title": "Find Mode in Binary Search Tree",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
   "find-the-duplicate-number": {
     "difficulty": "Medium",
     "title": "Find the Duplicate Number",
