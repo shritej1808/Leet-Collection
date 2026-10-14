@@ -16,41 +16,34 @@
 class Solution {
     public int[] findMode(TreeNode root) {
         Map<Integer,Integer> map=new HashMap<>();
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
+      Queue<TreeNode> queue=new LinkedList<>();
+      queue.add(root);
+      while(!queue.isEmpty()){
+        TreeNode node=queue.poll();
+        map.merge(node.val,1,Integer::sum);
 
-          // Traversing using queue 
-        // To Traverse all the element according to the Level
-        while (!queue.isEmpty()) {
-            TreeNode tempNode = queue.poll();
-            map.merge(tempNode.val,1, Integer::sum);
+        if(node.left!=null) queue.add(node.left);
+        if(node.right!=null) queue.add(node.right);
 
-            if (tempNode.left != null)
-                queue.add(tempNode.left);
+      }
+      int max=Integer.MIN_VALUE;
+      List<Integer> list=new ArrayList<>();
+      for(int key:map.keySet()){
+        int val=map.get(key);
+        if(val>max){
+            max=val;
+            list.clear();
+            list.add(key);
+        }else if(val==max){
+            list.add(key);
+        }
+        
 
-            if (tempNode.right != null)
-                queue.add(tempNode.right);}
-                int max = Integer.MIN_VALUE;
-List<Integer> result = new ArrayList<>();
-
-for (int key : map.keySet()) {
-    int val = map.get(key);
-
-    if (val > max) {
-        max = val;
-        result.clear();
-        result.add(key);
-    } else if (val == max) {
-        result.add(key);
-    }
-}
-
-int[] arr = new int[result.size()];
-
-for (int i = 0; i < result.size(); i++) {
-    arr[i] = result.get(i);
-}
-
-return arr;
+      }
+      int[] arr=new int[list.size()];
+        for(int i=0;i<list.size();i++){
+            arr[i]=list.get(i);
+        }
+        return arr;
     }
 }
