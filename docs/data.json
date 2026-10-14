@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T13:01:22+00:00",
+  "generated_at": "2026-10-14T13:06:06+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -923,10 +923,12 @@
         "Binary Search Tree",
         "Binary Tree"
       ],
-      "languages": [],
-      "solution_file": null,
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "find-mode-in-binary-search-tree.java",
       "date": "2026-10-14",
-      "raw_url": null,
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/501-find-mode-in-binary-search-tree/find-mode-in-binary-search-tree.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/501-find-mode-in-binary-search-tree",
       "leetcode_url": "https://leetcode.com/problems/find-mode-in-binary-search-tree/"
     },

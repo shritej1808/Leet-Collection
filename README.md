@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Medium-33-FFA116?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Hard-3-FF4C4C?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Trophies-10/13-FFD700?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Last%20Updated-2026-10-14.13%3A01.UTC-444?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Last%20Updated-2026-10-14.13%3A06.UTC-444?style=for-the-badge" />
 </p>
 
 > ℹ️ Set the `LEETCODE_USERNAME` repo variable to show a live LeetCode stats card + submission heatmap here.
@@ -79,7 +79,7 @@
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) <br/> [448-find-all-numbers-disappeared-in-an-array](./448-find-all-numbers-disappeared-in-an-array) | 🟢 Easy | Java | Array, Hash Table | 2026-09-15 |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) <br/> [451-sort-characters-by-frequency](./451-sort-characters-by-frequency) | 🟡 Medium | Java | Hash Table, String, Sorting… | 2026-09-04 |
 | 498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) <br/> [498-diagonal-traverse](./498-diagonal-traverse) | 🟡 Medium | Java | Array, Matrix, Simulation | 2026-09-01 |
-| 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/) <br/> [501-find-mode-in-binary-search-tree](./501-find-mode-in-binary-search-tree) | 🟢 Easy | — | Tree, Depth-First Search, Binary Search Tree… | 2026-10-14 |
+| 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/) <br/> [501-find-mode-in-binary-search-tree](./501-find-mode-in-binary-search-tree) | 🟢 Easy | Java | Tree, Depth-First Search, Binary Search Tree… | 2026-10-14 |
 | 599 | [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) <br/> [599-minimum-index-sum-of-two-lists](./599-minimum-index-sum-of-two-lists) | 🟢 Easy | Java | Array, Hash Table, String | 2026-09-23 |
 | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) <br/> [621-task-scheduler](./621-task-scheduler) | 🟡 Medium | Java | Array, Hash Table, Greedy… | 2026-09-04 |
 | 874 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) <br/> [874-backspace-string-compare](./874-backspace-string-compare) | 🟢 Easy | Java | Two Pointers, String, Stack… | 2026-08-27 |
@@ -93,4 +93,4 @@
 | 2411 | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/) <br/> [2411-spiral-matrix-iv](./2411-spiral-matrix-iv) | 🟡 Medium | Java | Array, Linked List, Matrix… | 2026-08-28 |
 
 ---
-<p align="center"><sub>Auto-generated on 2026-10-14 13:01 UTC by <code>scripts/generate_readme.py</code> · <a href="https://github.com/shritej1808/Leet-Collection/actions">view workflow runs</a></sub></p>
+<p align="center"><sub>Auto-generated on 2026-10-14 13:06 UTC by <code>scripts/generate_readme.py</code> · <a href="https://github.com/shritej1808/Leet-Collection/actions">view workflow runs</a></sub></p>
