@@ -251,6 +251,17 @@
       "Recursion"
     ]
   },
+  "minimum-absolute-difference-in-bst": {
+    "difficulty": "Easy",
+    "title": "Minimum Absolute Difference in BST",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
   "minimum-index-sum-of-two-lists": {
     "difficulty": "Easy",
     "title": "Minimum Index Sum of Two Lists",

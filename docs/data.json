@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T08:16:45+00:00",
+  "generated_at": "2026-10-15T12:31:41+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -931,6 +931,28 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/501-find-mode-in-binary-search-tree/find-mode-in-binary-search-tree.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/501-find-mode-in-binary-search-tree",
       "leetcode_url": "https://leetcode.com/problems/find-mode-in-binary-search-tree/"
+    },
+    {
+      "number": 530,
+      "slug": "minimum-absolute-difference-in-bst",
+      "folder": "530-minimum-absolute-difference-in-bst",
+      "title": "Minimum Absolute Difference in BST",
+      "difficulty": "Easy",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Search Tree",
+        "Binary Tree"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "minimum-absolute-difference-in-bst.java",
+      "date": "2026-10-15",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/530-minimum-absolute-difference-in-bst/minimum-absolute-difference-in-bst.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/530-minimum-absolute-difference-in-bst",
+      "leetcode_url": "https://leetcode.com/problems/minimum-absolute-difference-in-bst/"
     },
     {
       "number": 599,
