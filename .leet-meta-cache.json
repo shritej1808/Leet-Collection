@@ -550,5 +550,15 @@
       "String",
       "Sorting"
     ]
+  },
+  "validate-binary-search-tree": {
+    "difficulty": "Medium",
+    "title": "Validate Binary Search Tree",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
   }
 }

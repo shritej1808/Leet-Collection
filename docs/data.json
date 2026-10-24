@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T08:06:50+00:00",
+  "generated_at": "2026-10-24T18:09:32+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -352,6 +352,27 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/94-binary-tree-inorder-traversal/binary-tree-inorder-traversal.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/94-binary-tree-inorder-traversal",
       "leetcode_url": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+    },
+    {
+      "number": 98,
+      "slug": "validate-binary-search-tree",
+      "folder": "98-validate-binary-search-tree",
+      "title": "Validate Binary Search Tree",
+      "difficulty": "Medium",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Binary Search Tree",
+        "Binary Tree"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "validate-binary-search-tree.java",
+      "date": "2026-10-24",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/98-validate-binary-search-tree/validate-binary-search-tree.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/98-validate-binary-search-tree",
+      "leetcode_url": "https://leetcode.com/problems/validate-binary-search-tree/"
     },
     {
       "number": 100,
