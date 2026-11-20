@@ -18,6 +18,18 @@
       "Simulation"
     ]
   },
+  "binary-search-tree-iterator": {
+    "difficulty": "Medium",
+    "title": "Binary Search Tree Iterator",
+    "topics": [
+      "Stack",
+      "Tree",
+      "Design",
+      "Binary Search Tree",
+      "Binary Tree",
+      "Iterator"
+    ]
+  },
   "binary-tree-inorder-traversal": {
     "difficulty": "Easy",
     "title": "Binary Tree Inorder Traversal",
