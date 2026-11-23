@@ -2,12 +2,12 @@
 <p align="center">Auto-generated LeetCode solution archive, synced with <a href="https://github.com/3ba2ii/LeetSync">LeetSync</a> and self-updating on every push.</p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Solved-60-5865F2?style=for-the-badge" alt="total solved" />
+  <img src="https://img.shields.io/badge/Solved-61-5865F2?style=for-the-badge" alt="total solved" />
   <img src="https://img.shields.io/badge/Easy-22-3CB371?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Medium-35-FFA116?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Medium-36-FFA116?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Hard-3-FF4C4C?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Trophies-10/13-FFD700?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Last%20Updated-2026-11-22.11%3A22.UTC-444?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Last%20Updated-2026-11-23.08%3A31.UTC-444?style=for-the-badge" />
 </p>
 
 > ℹ️ Set the `LEETCODE_USERNAME` repo variable to show a live LeetCode stats card + submission heatmap here.
@@ -26,8 +26,8 @@
 ## 📊 Breakdown
 
 <p align="center">
-  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B22%2C%2035%2C%203%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233CB371%22%2C%20%22%23FFA116%22%2C%20%22%23FF4C4C%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22labels%22%3A%20%7B%22color%22%3A%20%22gray%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2014%7D%7D%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Solved%20by%20Difficulty%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%7D%7D&backgroundColor=transparent&width=380&height=260" alt="difficulty breakdown" width="380"/>
-  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22bar%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Array%22%2C%20%22Linked%20List%22%2C%20%22Hash%20Table%22%2C%20%22Two%20Pointers%22%2C%20%22Tree%22%2C%20%22Binary%20Tree%22%2C%20%22Depth-First%20Search%22%2C%20%22String%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22label%22%3A%20%22Problems%22%2C%20%22data%22%3A%20%5B28%2C%2017%2C%2016%2C%2014%2C%2012%2C%2012%2C%2010%2C%209%5D%2C%20%22backgroundColor%22%3A%20%22%235865F2%22%7D%5D%7D%2C%20%22options%22%3A%20%7B%22indexAxis%22%3A%20%22y%22%2C%20%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22display%22%3A%20false%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Top%20Topics%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%2C%20%22scales%22%3A%20%7B%22x%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22gray%22%7D%7D%2C%20%22y%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22gray%22%7D%7D%7D%7D%7D&backgroundColor=transparent&width=420&height=280" alt="top topics" width="420"/>
+  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22doughnut%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Easy%22%2C%20%22Medium%22%2C%20%22Hard%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22data%22%3A%20%5B22%2C%2036%2C%203%5D%2C%20%22backgroundColor%22%3A%20%5B%22%233CB371%22%2C%20%22%23FFA116%22%2C%20%22%23FF4C4C%22%5D%7D%5D%7D%2C%20%22options%22%3A%20%7B%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22labels%22%3A%20%7B%22color%22%3A%20%22gray%22%2C%20%22font%22%3A%20%7B%22size%22%3A%2014%7D%7D%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Solved%20by%20Difficulty%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%7D%7D&backgroundColor=transparent&width=380&height=260" alt="difficulty breakdown" width="380"/>
+  <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%20%22bar%22%2C%20%22data%22%3A%20%7B%22labels%22%3A%20%5B%22Array%22%2C%20%22Linked%20List%22%2C%20%22Hash%20Table%22%2C%20%22Two%20Pointers%22%2C%20%22Tree%22%2C%20%22Binary%20Tree%22%2C%20%22Depth-First%20Search%22%2C%20%22String%22%5D%2C%20%22datasets%22%3A%20%5B%7B%22label%22%3A%20%22Problems%22%2C%20%22data%22%3A%20%5B28%2C%2017%2C%2016%2C%2014%2C%2013%2C%2013%2C%2010%2C%209%5D%2C%20%22backgroundColor%22%3A%20%22%235865F2%22%7D%5D%7D%2C%20%22options%22%3A%20%7B%22indexAxis%22%3A%20%22y%22%2C%20%22plugins%22%3A%20%7B%22legend%22%3A%20%7B%22display%22%3A%20false%7D%2C%20%22title%22%3A%20%7B%22display%22%3A%20true%2C%20%22text%22%3A%20%22Top%20Topics%22%2C%20%22color%22%3A%20%22gray%22%7D%7D%2C%20%22scales%22%3A%20%7B%22x%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22gray%22%7D%7D%2C%20%22y%22%3A%20%7B%22ticks%22%3A%20%7B%22color%22%3A%20%22gray%22%7D%7D%7D%7D%7D&backgroundColor=transparent&width=420&height=280" alt="top topics" width="420"/>
 </p>
 
 ## 📚 Solutions
@@ -79,6 +79,7 @@
 | 410 | [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/) <br/> [410-split-array-largest-sum](./410-split-array-largest-sum) | 🔴 Hard | Java | Array, Binary Search, Dynamic Programming… | 2026-09-10 |
 | 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) <br/> [442-find-all-duplicates-in-an-array](./442-find-all-duplicates-in-an-array) | 🟡 Medium | Java | Array, Hash Table, Sorting | 2026-09-16 |
 | 448 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) <br/> [448-find-all-numbers-disappeared-in-an-array](./448-find-all-numbers-disappeared-in-an-array) | 🟢 Easy | Java | Array, Hash Table | 2026-09-15 |
+| 450 | [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) <br/> [450-delete-node-in-a-bst](./450-delete-node-in-a-bst) | 🟡 Medium | Java | Tree, Binary Search Tree, Binary Tree | 2026-11-23 |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) <br/> [451-sort-characters-by-frequency](./451-sort-characters-by-frequency) | 🟡 Medium | Java | Hash Table, String, Sorting… | 2026-09-04 |
 | 498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) <br/> [498-diagonal-traverse](./498-diagonal-traverse) | 🟡 Medium | Java | Array, Matrix, Simulation | 2026-09-01 |
 | 501 | [Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/) <br/> [501-find-mode-in-binary-search-tree](./501-find-mode-in-binary-search-tree) | 🟢 Easy | Java | Tree, Depth-First Search, Binary Search Tree… | 2026-10-14 |
@@ -96,4 +97,4 @@
 | 2411 | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/) <br/> [2411-spiral-matrix-iv](./2411-spiral-matrix-iv) | 🟡 Medium | Java | Array, Linked List, Matrix… | 2026-08-28 |
 
 ---
-<p align="center"><sub>Auto-generated on 2026-11-22 11:22 UTC by <code>scripts/generate_readme.py</code> · <a href="https://github.com/shritej1808/Leet-Collection/actions">view workflow runs</a></sub></p>
+<p align="center"><sub>Auto-generated on 2026-11-23 08:31 UTC by <code>scripts/generate_readme.py</code> · <a href="https://github.com/shritej1808/Leet-Collection/actions">view workflow runs</a></sub></p>

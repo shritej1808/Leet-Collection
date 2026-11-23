@@ -71,6 +71,15 @@
       "Sliding Window"
     ]
   },
+  "delete-node-in-a-bst": {
+    "difficulty": "Medium",
+    "title": "Delete Node in a BST",
+    "topics": [
+      "Tree",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
   "diagonal-traverse": {
     "difficulty": "Medium",
     "title": "Diagonal Traverse",
