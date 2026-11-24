@@ -51,6 +51,16 @@
       "Binary Tree"
     ]
   },
+  "binary-tree-preorder-traversal": {
+    "difficulty": "Easy",
+    "title": "Binary Tree Preorder Traversal",
+    "topics": [
+      "Stack",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
   "construct-binary-tree-from-preorder-and-inorder-traversal": {
     "difficulty": "Medium",
     "title": "Construct Binary Tree from Preorder and Inorder Traversal",
