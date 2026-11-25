@@ -99,6 +99,16 @@
       "Simulation"
     ]
   },
+  "diameter-of-binary-tree": {
+    "difficulty": "Easy",
+    "title": "Diameter of Binary Tree",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree",
+      "DP on Trees"
+    ]
+  },
   "find-all-duplicates-in-an-array": {
     "difficulty": "Medium",
     "title": "Find All Duplicates in an Array",

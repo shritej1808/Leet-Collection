@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T12:52:31+00:00",
+  "generated_at": "2026-11-25T17:29:25+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -1038,6 +1038,27 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/530-minimum-absolute-difference-in-bst/minimum-absolute-difference-in-bst.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/530-minimum-absolute-difference-in-bst",
       "leetcode_url": "https://leetcode.com/problems/minimum-absolute-difference-in-bst/"
+    },
+    {
+      "number": 543,
+      "slug": "diameter-of-binary-tree",
+      "folder": "543-diameter-of-binary-tree",
+      "title": "Diameter of Binary Tree",
+      "difficulty": "Easy",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree",
+        "DP on Trees"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "diameter-of-binary-tree.java",
+      "date": "2026-11-25",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/543-diameter-of-binary-tree/diameter-of-binary-tree.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/543-diameter-of-binary-tree",
+      "leetcode_url": "https://leetcode.com/problems/diameter-of-binary-tree/"
     },
     {
       "number": 599,
