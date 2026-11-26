@@ -18,6 +18,15 @@
       "Simulation"
     ]
   },
+  "balanced-binary-tree": {
+    "difficulty": "Easy",
+    "title": "Balanced Binary Tree",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
   "binary-search-tree-iterator": {
     "difficulty": "Medium",
     "title": "Binary Search Tree Iterator",

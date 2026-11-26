@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T12:31:02+00:00",
+  "generated_at": "2026-11-26T14:48:22+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -437,6 +437,26 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/105-construct-binary-tree-from-preorder-and-inorder-traversal/construct-binary-tree-from-preorder-and-inorder-traversal.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/105-construct-binary-tree-from-preorder-and-inorder-traversal",
       "leetcode_url": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/"
+    },
+    {
+      "number": 110,
+      "slug": "balanced-binary-tree",
+      "folder": "110-balanced-binary-tree",
+      "title": "Balanced Binary Tree",
+      "difficulty": "Easy",
+      "topics": [
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "balanced-binary-tree.java",
+      "date": "2026-11-26",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/110-balanced-binary-tree/balanced-binary-tree.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/110-balanced-binary-tree",
+      "leetcode_url": "https://leetcode.com/problems/balanced-binary-tree/"
     },
     {
       "number": 114,
