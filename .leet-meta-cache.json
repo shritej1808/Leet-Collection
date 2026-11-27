@@ -284,6 +284,16 @@
       "Prefix Sum"
     ]
   },
+  "maximum-depth-of-binary-tree": {
+    "difficulty": "Easy",
+    "title": "Maximum Depth of Binary Tree",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
   "merge-sorted-array": {
     "difficulty": "Easy",
     "title": "Merge Sorted Array",
