@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T20:28:44+00:00",
+  "generated_at": "2026-11-28T09:54:58+00:00",
   "repo": "shritej1808/Leet-Collection",
   "problems": [
     {
@@ -1183,6 +1183,28 @@
       "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/875-longest-mountain-in-array/longest-mountain-in-array.java",
       "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/875-longest-mountain-in-array",
       "leetcode_url": "https://leetcode.com/problems/longest-mountain-in-array/"
+    },
+    {
+      "number": 893,
+      "slug": "all-nodes-distance-k-in-binary-tree",
+      "folder": "893-all-nodes-distance-k-in-binary-tree",
+      "title": "All Nodes Distance K in Binary Tree",
+      "difficulty": "Medium",
+      "topics": [
+        "Hash Table",
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "solution_file": "all-nodes-distance-k-in-binary-tree.java",
+      "date": "2026-11-28",
+      "raw_url": "https://raw.githubusercontent.com/shritej1808/Leet-Collection/main/893-all-nodes-distance-k-in-binary-tree/all-nodes-distance-k-in-binary-tree.java",
+      "github_url": "https://github.com/shritej1808/Leet-Collection/tree/main/893-all-nodes-distance-k-in-binary-tree",
+      "leetcode_url": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/"
     },
     {
       "number": 898,
