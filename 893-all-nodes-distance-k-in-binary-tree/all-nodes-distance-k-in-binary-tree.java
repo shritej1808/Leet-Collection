@@ -8,7 +8,7 @@
  * }
  */
 class Solution {
-    Map<TreeNode, TreeNode> parentMap=new HashMap<>();
+    Map<TreeNode,TreeNode> parentMap=new HashMap<>();
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
         findParent(root,null);
         Queue<TreeNode> queue=new LinkedList<>();
@@ -19,31 +19,31 @@ class Solution {
         while(!queue.isEmpty()){
             int size=queue.size();
             if(distance==k) break;
-            
             for(int i=0;i<size;i++){
                 TreeNode curr=queue.poll();
                 if(curr.left!=null && visited.add(curr.left)){
-                queue.offer(curr.left);
+                    queue.offer(curr.left);
+                }
+                if(curr.right!=null&& visited.add(curr.right)){
+                    queue.offer(curr.right);
+                }
+                TreeNode parent=parentMap.get(curr);
+                if(parent!=null && visited.add(parent)){
+                    queue.offer(parent);
+                }
+                
             }
-            if(curr.right!=null && visited.add(curr.right)){
-                queue.offer(curr.right);
-            }
-            TreeNode parent=parentMap.get(curr);
-            if(parent!=null && visited.add(parent)){
-                queue.offer(parent);
-            }
-            }
-          distance++;
+            distance++;
         }
-        List<Integer> list=new ArrayList<>();
-         while (!queue.isEmpty()) {
-            list.add(queue.poll().val);
+        List<Integer> result=new ArrayList<>();
+        while(!queue.isEmpty()){
+            result.add(queue.poll().val);
         }
-        return list;
+        return result;
 
         
     }
-    private void findParent(TreeNode root,TreeNode p){
+    private void findParent(TreeNode root, TreeNode p){
         if(root==null) return;
         parentMap.put(root,p);
         findParent(root.left,root);
